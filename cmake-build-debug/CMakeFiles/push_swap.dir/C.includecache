@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aabet/projects/push_swap/push_swap/checker.h
+libft/libft.h
+/Users/aabet/projects/push_swap/push_swap/libft/libft.h
+
+/Users/aabet/projects/push_swap/push_swap/libft/libft.h
+string.h
+-
+stdlib.h
+-
+limits.h
+-
+unistd.h
+-
+
+/Users/aabet/projects/push_swap/push_swap/main.c
+stdio.h
+-
+checker.h
+/Users/aabet/projects/push_swap/push_swap/checker.h
+

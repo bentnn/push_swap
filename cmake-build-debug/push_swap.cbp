@@ -78,6 +78,120 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker.h">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/data_func.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_atoi.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_bzero.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_calloc.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_isalnum.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_isalpha.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_isascii.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_isdigit.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_isprint.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_itoa.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_memccpy.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_memchr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_memcmp.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_memcpy.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_memmove.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_memset.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_putchar.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_putchar_fd.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_putendl_fd.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_putnbr_fd.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_putstr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_putstr_fd.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_split.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strchr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strdup.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strjoin.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strlcat.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strlcpy.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strlen.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strmapi.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strncmp.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strnstr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strrchr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strtrim.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_substr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_tolower.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_toupper.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/main.c">
 			<Option target="push_swap"/>
 		</Unit>
