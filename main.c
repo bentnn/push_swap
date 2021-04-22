@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "checker.h"
+#include "commands/commands.h"
 
 int check_array(int argc, char **argv)
 {
@@ -38,10 +39,12 @@ int main(int argc, char **argv)
 	data = create_data(argc);
 	create_array_of_int(data, argc, argv);
 	int i = 0;
-	while (i < data->size)
-	{
-		printf("%d\n", data->array[i]);
-		i++;
-	}
+	sa(data);
+	output_stacks(data);
+//	while (i < data->size)
+//	{
+//		printf("%d\n", data->array[i]);
+//		i++;
+//	}
 	delete_data(data);
 }

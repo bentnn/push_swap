@@ -81,6 +81,12 @@
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker.h">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/commands/commands.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/commands/commands.h">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/data_func.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -193,6 +199,9 @@
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/main.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/work_with_commands.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/CMakeLists.txt">

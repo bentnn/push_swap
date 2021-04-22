@@ -42,4 +42,4 @@ add_executable(push_swap main.c checker.h data_func.c
         libft/ft_strmapi.c
         libft/ft_split.c
         libft/ft_putchar.c
-        libft/ft_putstr.c)
+        libft/ft_putstr.c work_with_commands.c commands/commands.c commands/commands.h)

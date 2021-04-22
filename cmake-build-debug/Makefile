@@ -142,6 +142,33 @@ push_swap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
+commands/commands.o: commands/commands.c.o
+
+.PHONY : commands/commands.o
+
+# target to build an object file
+commands/commands.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/commands/commands.c.o
+.PHONY : commands/commands.c.o
+
+commands/commands.i: commands/commands.c.i
+
+.PHONY : commands/commands.i
+
+# target to preprocess a source file
+commands/commands.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/commands/commands.c.i
+.PHONY : commands/commands.c.i
+
+commands/commands.s: commands/commands.c.s
+
+.PHONY : commands/commands.s
+
+# target to generate assembly for a file
+commands/commands.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/commands/commands.c.s
+.PHONY : commands/commands.c.s
+
 data_func.o: data_func.c.o
 
 .PHONY : data_func.o
@@ -1168,6 +1195,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/main.c.s
 .PHONY : main.c.s
 
+work_with_commands.o: work_with_commands.c.o
+
+.PHONY : work_with_commands.o
+
+# target to build an object file
+work_with_commands.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/work_with_commands.c.o
+.PHONY : work_with_commands.c.o
+
+work_with_commands.i: work_with_commands.c.i
+
+.PHONY : work_with_commands.i
+
+# target to preprocess a source file
+work_with_commands.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/work_with_commands.c.i
+.PHONY : work_with_commands.c.i
+
+work_with_commands.s: work_with_commands.c.s
+
+.PHONY : work_with_commands.s
+
+# target to generate assembly for a file
+work_with_commands.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/work_with_commands.c.s
+.PHONY : work_with_commands.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1177,6 +1231,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... push_swap"
+	@echo "... commands/commands.o"
+	@echo "... commands/commands.i"
+	@echo "... commands/commands.s"
 	@echo "... data_func.o"
 	@echo "... data_func.i"
 	@echo "... data_func.s"
@@ -1291,6 +1348,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... work_with_commands.o"
+	@echo "... work_with_commands.i"
+	@echo "... work_with_commands.s"
 .PHONY : help
 
 

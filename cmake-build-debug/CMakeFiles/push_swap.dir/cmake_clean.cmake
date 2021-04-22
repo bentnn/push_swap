@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/push_swap.dir/commands/commands.c.o"
   "CMakeFiles/push_swap.dir/data_func.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_atoi.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_bzero.c.o"
@@ -37,6 +38,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/libft/ft_tolower.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_toupper.c.o"
   "CMakeFiles/push_swap.dir/main.c.o"
+  "CMakeFiles/push_swap.dir/work_with_commands.c.o"
   "push_swap"
   "push_swap.pdb"
 )
