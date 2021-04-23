@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/aabet/projects/push_swap/push_swap/commands/commands.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/commands/commands.c.o"
   "/Users/aabet/projects/push_swap/push_swap/data_func.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/data_func.c.o"
+  "/Users/aabet/projects/push_swap/push_swap/gnl/get_next_line.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/gnl/get_next_line.c.o"
+  "/Users/aabet/projects/push_swap/push_swap/gnl/get_next_line_utils.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/gnl/get_next_line_utils.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_atoi.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_atoi.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_bzero.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_bzero.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_calloc.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_calloc.c.o"
@@ -43,6 +44,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_tolower.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_tolower.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_toupper.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_toupper.c.o"
   "/Users/aabet/projects/push_swap/push_swap/main.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/main.c.o"
+  "/Users/aabet/projects/push_swap/push_swap/swap_commands.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/swap_commands.c.o"
   "/Users/aabet/projects/push_swap/push_swap/work_with_commands.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/work_with_commands.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

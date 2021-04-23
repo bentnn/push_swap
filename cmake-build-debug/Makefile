@@ -142,33 +142,6 @@ push_swap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
-commands/commands.o: commands/commands.c.o
-
-.PHONY : commands/commands.o
-
-# target to build an object file
-commands/commands.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/commands/commands.c.o
-.PHONY : commands/commands.c.o
-
-commands/commands.i: commands/commands.c.i
-
-.PHONY : commands/commands.i
-
-# target to preprocess a source file
-commands/commands.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/commands/commands.c.i
-.PHONY : commands/commands.c.i
-
-commands/commands.s: commands/commands.c.s
-
-.PHONY : commands/commands.s
-
-# target to generate assembly for a file
-commands/commands.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/commands/commands.c.s
-.PHONY : commands/commands.c.s
-
 data_func.o: data_func.c.o
 
 .PHONY : data_func.o
@@ -195,6 +168,60 @@ data_func.s: data_func.c.s
 data_func.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/data_func.c.s
 .PHONY : data_func.c.s
+
+gnl/get_next_line.o: gnl/get_next_line.c.o
+
+.PHONY : gnl/get_next_line.o
+
+# target to build an object file
+gnl/get_next_line.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/gnl/get_next_line.c.o
+.PHONY : gnl/get_next_line.c.o
+
+gnl/get_next_line.i: gnl/get_next_line.c.i
+
+.PHONY : gnl/get_next_line.i
+
+# target to preprocess a source file
+gnl/get_next_line.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/gnl/get_next_line.c.i
+.PHONY : gnl/get_next_line.c.i
+
+gnl/get_next_line.s: gnl/get_next_line.c.s
+
+.PHONY : gnl/get_next_line.s
+
+# target to generate assembly for a file
+gnl/get_next_line.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/gnl/get_next_line.c.s
+.PHONY : gnl/get_next_line.c.s
+
+gnl/get_next_line_utils.o: gnl/get_next_line_utils.c.o
+
+.PHONY : gnl/get_next_line_utils.o
+
+# target to build an object file
+gnl/get_next_line_utils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/gnl/get_next_line_utils.c.o
+.PHONY : gnl/get_next_line_utils.c.o
+
+gnl/get_next_line_utils.i: gnl/get_next_line_utils.c.i
+
+.PHONY : gnl/get_next_line_utils.i
+
+# target to preprocess a source file
+gnl/get_next_line_utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/gnl/get_next_line_utils.c.i
+.PHONY : gnl/get_next_line_utils.c.i
+
+gnl/get_next_line_utils.s: gnl/get_next_line_utils.c.s
+
+.PHONY : gnl/get_next_line_utils.s
+
+# target to generate assembly for a file
+gnl/get_next_line_utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/gnl/get_next_line_utils.c.s
+.PHONY : gnl/get_next_line_utils.c.s
 
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
@@ -1195,6 +1222,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/main.c.s
 .PHONY : main.c.s
 
+swap_commands.o: swap_commands.c.o
+
+.PHONY : swap_commands.o
+
+# target to build an object file
+swap_commands.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/swap_commands.c.o
+.PHONY : swap_commands.c.o
+
+swap_commands.i: swap_commands.c.i
+
+.PHONY : swap_commands.i
+
+# target to preprocess a source file
+swap_commands.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/swap_commands.c.i
+.PHONY : swap_commands.c.i
+
+swap_commands.s: swap_commands.c.s
+
+.PHONY : swap_commands.s
+
+# target to generate assembly for a file
+swap_commands.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/swap_commands.c.s
+.PHONY : swap_commands.c.s
+
 work_with_commands.o: work_with_commands.c.o
 
 .PHONY : work_with_commands.o
@@ -1231,12 +1285,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... push_swap"
-	@echo "... commands/commands.o"
-	@echo "... commands/commands.i"
-	@echo "... commands/commands.s"
 	@echo "... data_func.o"
 	@echo "... data_func.i"
 	@echo "... data_func.s"
+	@echo "... gnl/get_next_line.o"
+	@echo "... gnl/get_next_line.i"
+	@echo "... gnl/get_next_line.s"
+	@echo "... gnl/get_next_line_utils.o"
+	@echo "... gnl/get_next_line_utils.i"
+	@echo "... gnl/get_next_line_utils.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"
@@ -1348,6 +1405,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... swap_commands.o"
+	@echo "... swap_commands.i"
+	@echo "... swap_commands.s"
 	@echo "... work_with_commands.o"
 	@echo "... work_with_commands.i"
 	@echo "... work_with_commands.s"

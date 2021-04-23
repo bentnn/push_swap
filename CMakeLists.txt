@@ -5,7 +5,10 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(push_swap main.c checker.h data_func.c
 
-
+        gnl/get_next_line.h
+        gnl/get_next_line.c
+        gnl/get_next_line_utils.c
+        gnl/gnl_systemic.h
 
         libft/ft_atoi.c
         libft/ft_bzero.c
@@ -42,4 +45,4 @@ add_executable(push_swap main.c checker.h data_func.c
         libft/ft_strmapi.c
         libft/ft_split.c
         libft/ft_putchar.c
-        libft/ft_putstr.c work_with_commands.c commands/commands.c commands/commands.h)
+        libft/ft_putstr.c work_with_commands.c swap_commands.c swap_commands.h)

@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "checker.h"
-#include "commands/commands.h"
 
 int check_array(int argc, char **argv)
 {
@@ -22,6 +21,27 @@ int check_array(int argc, char **argv)
 	return (1);
 }
 
+void check_result(t_data *data)
+{
+	int i;
+
+	if (data->size2 == 0)
+	{
+		i = 1;
+		while (i < data->size)
+		{
+			if (data->array[i] < data->array[i - 1])
+			{
+				ft_putstr("KO\n");
+				return;
+			}
+			i++;
+		}
+		ft_putstr("OK\n");
+	}
+	else
+		ft_putstr("KO\n");
+}
 
 int main(int argc, char **argv)
 {
@@ -38,13 +58,8 @@ int main(int argc, char **argv)
 	}
 	data = create_data(argc);
 	create_array_of_int(data, argc, argv);
-	int i = 0;
-	sa(data);
 	output_stacks(data);
-//	while (i < data->size)
-//	{
-//		printf("%d\n", data->array[i]);
-//		i++;
-//	}
+	work_with_commands(data);
+	check_result(data);
 	delete_data(data);
 }
