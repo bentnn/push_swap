@@ -44,6 +44,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_tolower.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_tolower.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_toupper.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_toupper.c.o"
   "/Users/aabet/projects/push_swap/push_swap/main.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/main.c.o"
+  "/Users/aabet/projects/push_swap/push_swap/push_swap.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap.c.o"
   "/Users/aabet/projects/push_swap/push_swap/swap_commands.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/swap_commands.c.o"
   "/Users/aabet/projects/push_swap/push_swap/work_with_commands.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/work_with_commands.c.o"
   )

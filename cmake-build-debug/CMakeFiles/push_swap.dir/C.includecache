@@ -12,10 +12,6 @@ libft/libft.h
 gnl/get_next_line.h
 /Users/aabet/projects/push_swap/push_swap/gnl/get_next_line.h
 
-/Users/aabet/projects/push_swap/push_swap/data_func.c
-checker.h
-/Users/aabet/projects/push_swap/push_swap/checker.h
-
 /Users/aabet/projects/push_swap/push_swap/gnl/get_next_line.h
 
 /Users/aabet/projects/push_swap/push_swap/libft/libft.h
@@ -27,4 +23,10 @@ limits.h
 -
 unistd.h
 -
+
+/Users/aabet/projects/push_swap/push_swap/main.c
+stdio.h
+-
+checker.h
+/Users/aabet/projects/push_swap/push_swap/checker.h
 

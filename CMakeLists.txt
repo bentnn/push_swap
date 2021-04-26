@@ -45,4 +45,4 @@ add_executable(push_swap main.c checker.h data_func.c
         libft/ft_strmapi.c
         libft/ft_split.c
         libft/ft_putchar.c
-        libft/ft_putstr.c work_with_commands.c swap_commands.c swap_commands.h)
+        libft/ft_putstr.c work_with_commands.c swap_commands.c swap_commands.h push_swap.c)

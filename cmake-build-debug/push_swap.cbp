@@ -207,6 +207,9 @@
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/main.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/push_swap.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/swap_commands.c">
 			<Option target="push_swap"/>
 		</Unit>

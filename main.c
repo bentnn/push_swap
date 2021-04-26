@@ -58,7 +58,11 @@ int main(int argc, char **argv)
 	}
 	data = create_data(argc);
 	create_array_of_int(data, argc, argv);
+
 	output_stacks(data);
+//	int count = push_swap(data);
+//	output_stacks(data);
+//	printf("count = %d\n", count);
 	work_with_commands(data);
 	check_result(data);
 	delete_data(data);
