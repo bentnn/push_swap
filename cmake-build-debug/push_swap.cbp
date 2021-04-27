@@ -84,6 +84,9 @@
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/data_func.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/doing_moves.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/gnl/get_next_line.c">
 			<Option target="push_swap"/>
 		</Unit>

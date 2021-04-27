@@ -169,6 +169,33 @@ data_func.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/data_func.c.s
 .PHONY : data_func.c.s
 
+doing_moves.o: doing_moves.c.o
+
+.PHONY : doing_moves.o
+
+# target to build an object file
+doing_moves.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/doing_moves.c.o
+.PHONY : doing_moves.c.o
+
+doing_moves.i: doing_moves.c.i
+
+.PHONY : doing_moves.i
+
+# target to preprocess a source file
+doing_moves.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/doing_moves.c.i
+.PHONY : doing_moves.c.i
+
+doing_moves.s: doing_moves.c.s
+
+.PHONY : doing_moves.s
+
+# target to generate assembly for a file
+doing_moves.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/doing_moves.c.s
+.PHONY : doing_moves.c.s
+
 gnl/get_next_line.o: gnl/get_next_line.c.o
 
 .PHONY : gnl/get_next_line.o
@@ -1315,6 +1342,9 @@ help:
 	@echo "... data_func.o"
 	@echo "... data_func.i"
 	@echo "... data_func.s"
+	@echo "... doing_moves.o"
+	@echo "... doing_moves.i"
+	@echo "... doing_moves.s"
 	@echo "... gnl/get_next_line.o"
 	@echo "... gnl/get_next_line.i"
 	@echo "... gnl/get_next_line.s"

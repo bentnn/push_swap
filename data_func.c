@@ -9,16 +9,14 @@ t_data *create_data(int argc)
 		return (0);
 	new->size = argc - 1;
 	new->array = malloc(sizeof(int) * new->size);
-	if (!new->array)
-	{
-		free(new);
-		return (0);
-	}
 	new->second_array = malloc(sizeof(int) * new->size);
-	if (!new->second_array)
+	new->a_moves = malloc(sizeof(int) * new->size);
+	new->b_moves = malloc(sizeof(int) * new->size);
+	new->b_ways = malloc(sizeof(t_ways) * new->size);
+	if (!new->array || !new->second_array || !new->a_moves || !new->b_moves
+		|| !new->b_ways)
 	{
-		free(new->array);
-		free(new);
+		delete_data(new);
 		return (0);
 	}
 	new->size2 = 0;
@@ -33,6 +31,12 @@ void delete_data(t_data *data)
 			free(data->array);
 		if (data->second_array)
 			free(data->second_array);
+		if (data->a_moves)
+			free(data->a_moves);
+		if (data->b_moves)
+			free(data->b_moves);
+		if (data->b_ways)
+			free(data->b_ways);
 		free(data);
 	}
 }

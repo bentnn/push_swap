@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/data_func.c.o"
+  "CMakeFiles/push_swap.dir/doing_moves.c.o"
   "CMakeFiles/push_swap.dir/gnl/get_next_line.c.o"
   "CMakeFiles/push_swap.dir/gnl/get_next_line_utils.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_atoi.c.o"

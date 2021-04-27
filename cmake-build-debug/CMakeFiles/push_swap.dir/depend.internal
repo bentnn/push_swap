@@ -6,6 +6,12 @@ CMakeFiles/push_swap.dir/data_func.c.o
  /Users/aabet/projects/push_swap/push_swap/data_func.c
  /Users/aabet/projects/push_swap/push_swap/gnl/get_next_line.h
  /Users/aabet/projects/push_swap/push_swap/libft/libft.h
+CMakeFiles/push_swap.dir/doing_moves.c.o
+ /Users/aabet/projects/push_swap/push_swap/checker.h
+ /Users/aabet/projects/push_swap/push_swap/doing_moves.c
+ /Users/aabet/projects/push_swap/push_swap/gnl/get_next_line.h
+ /Users/aabet/projects/push_swap/push_swap/libft/libft.h
+ /Users/aabet/projects/push_swap/push_swap/swap_commands.h
 CMakeFiles/push_swap.dir/gnl/get_next_line.c.o
  /Users/aabet/projects/push_swap/push_swap/gnl/get_next_line.c
  /Users/aabet/projects/push_swap/push_swap/gnl/get_next_line.h

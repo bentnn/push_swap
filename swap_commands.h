@@ -15,4 +15,9 @@ void	rra(t_data *data);
 void	rrb(t_data *data);
 void	rrr(t_data *data);
 
+void rra_rb(t_data *data, int bfr_that, int pos);
+void ra_rb(t_data *data, int bfr_that, int pos);
+void rra_rrb(t_data *data, int bfr_that, int pos);
+void ra_rrb(t_data *data, int bfr_that, int pos);
+
 #endif

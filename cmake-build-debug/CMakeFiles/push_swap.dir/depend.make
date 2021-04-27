@@ -6,6 +6,12 @@ CMakeFiles/push_swap.dir/data_func.c.o: ../data_func.c
 CMakeFiles/push_swap.dir/data_func.c.o: ../gnl/get_next_line.h
 CMakeFiles/push_swap.dir/data_func.c.o: ../libft/libft.h
 
+CMakeFiles/push_swap.dir/doing_moves.c.o: ../checker.h
+CMakeFiles/push_swap.dir/doing_moves.c.o: ../doing_moves.c
+CMakeFiles/push_swap.dir/doing_moves.c.o: ../gnl/get_next_line.h
+CMakeFiles/push_swap.dir/doing_moves.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/doing_moves.c.o: ../swap_commands.h
+
 CMakeFiles/push_swap.dir/gnl/get_next_line.c.o: ../gnl/get_next_line.c
 CMakeFiles/push_swap.dir/gnl/get_next_line.c.o: ../gnl/get_next_line.h
 CMakeFiles/push_swap.dir/gnl/get_next_line.c.o: ../gnl/gnl_systemic.h

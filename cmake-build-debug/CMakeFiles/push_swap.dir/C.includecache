@@ -24,9 +24,15 @@ limits.h
 unistd.h
 -
 
-/Users/aabet/projects/push_swap/push_swap/main.c
+/Users/aabet/projects/push_swap/push_swap/push_swap.c
+swap_commands.h
+/Users/aabet/projects/push_swap/push_swap/swap_commands.h
+checker.h
+/Users/aabet/projects/push_swap/push_swap/checker.h
 stdio.h
 -
+
+/Users/aabet/projects/push_swap/push_swap/swap_commands.h
 checker.h
 /Users/aabet/projects/push_swap/push_swap/checker.h
 
