@@ -1,5 +1,5 @@
-#include "checker.h"
-#include "swap_commands.h"
+#include "checker/checker.h"
+#include "checker/swap_commands.h"
 
 void rra_rb(t_data *data, int bfr_that, int pos)
 {

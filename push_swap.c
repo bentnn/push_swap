@@ -1,19 +1,5 @@
-#include "swap_commands.h"
-#include "checker.h"
-
-int max_of_two(int a, int b)
-{
-	if (a > b)
-		return (a);
-	return (b);
-}
-
-int min_of_two(int a, int b)
-{
-	if (a < b)
-		return (a);
-	return (b);
-}
+#include "checker/swap_commands.h"
+#include "checker/checker.h"
 
 void find_min_and_max(t_data *data, int *min, int *max)
 {
@@ -38,8 +24,8 @@ void find_min_and_max(t_data *data, int *min, int *max)
 
 void count_struct_of_ways(t_data *data, int i, int bfr_that)
 {
-	data->b_ways[i].ra_rb = max_of_two(i, bfr_that);
-	data->b_ways[i].rra_rrb = -min_of_two(data->a_moves[bfr_that], data->b_moves[i]);
+	data->b_ways[i].ra_rb = ft_max(i, bfr_that);
+	data->b_ways[i].rra_rrb = -ft_min(data->a_moves[bfr_that], data->b_moves[i]);
 	data->b_ways[i].ra_rrb = bfr_that - data->b_moves[i];
 	data->b_ways[i].rra_rb = i - data->a_moves[bfr_that];
 }
@@ -122,24 +108,24 @@ int find_min_way(t_data *data, int *pos)
 	position = 0;
 	while (i < data->size2)
 	{
-		if (data->b_ways->rra_rb < min)
+		if (data->b_ways[i].rra_rb < min)
 		{
-			min = data->b_ways->rra_rb;
+			min = data->b_ways[i].rra_rb;
 			position = i;
 		}
-		else if (data->b_ways->rra_rrb < min)
+		if (data->b_ways[i].rra_rrb < min)
 		{
-			min = data->b_ways->rra_rrb;
+			min = data->b_ways[i].rra_rrb;
 			position = i;
 		}
-		else if (data->b_ways->ra_rb < min)
+		if (data->b_ways[i].ra_rb < min)
 		{
-			min = data->b_ways->ra_rb;
+			min = data->b_ways[i].ra_rb;
 			position = i;
 		}
-		else if (data->b_ways->ra_rrb < min)
+		if (data->b_ways[i].ra_rrb < min)
 		{
-			min = data->b_ways->ra_rrb;
+			min = data->b_ways[i].ra_rrb;
 			position = i;
 		}
 		i++;
@@ -202,7 +188,7 @@ int is_sorted(t_data *data)
 void	big_sort(t_data *data)
 {
 //	count_moves(data);
-//	int i;
+	int i;
 //	i = 0;
 //	while (i < data->size2)
 //	{
@@ -231,6 +217,17 @@ void	big_sort(t_data *data)
 //			ra_rb(data, bfr_that, pos);
 //		else
 //			rra_rrb(data, bfr_that, pos);
+
+//	i = 0;
+//	while (i < data->size2)
+//	{
+//		printf("%d:\nra_rb = %d\nrra_rrb = %d\nra_rrb = %d\nrra_rb = %d\n", data->second_array[i], data->b_ways[i].ra_rb, data->b_ways[i].rra_rrb,
+//			   data->b_ways[i].ra_rrb, data->b_ways[i].rra_rb);
+//		i++;
+//	}
+//	printf("min = %d, pos = %d, bfr_that = %d\n", min, pos, bfr_that);
+
+
 		if (data->b_ways[pos].ra_rb == min)
 			ra_rb(data, bfr_that, pos);
 		else if (data->b_ways[pos].rra_rrb == min)
@@ -239,6 +236,7 @@ void	big_sort(t_data *data)
 			ra_rrb(data, bfr_that, pos);
 		else
 			rra_rb(data, bfr_that, pos);
+//		output_stacks(data);
 	}
 	if (!is_sorted(data))
 		put_in_place(data);
@@ -294,8 +292,17 @@ void push_swap(t_data *data)
 	{
 		pb(data);
 		ft_putstr("pb\n");
+//		if (data->size2 > 1 && data->second_array[0] > data->second_array[1])
+//		{
+//			sb(data);
+//			ft_putstr("sb\n");
+//		}
 	}
+//	output_stacks(data);
+
 	sort_three(data);
+//	output_stacks(data);
+
 	if (data->size2 != 0)
 		big_sort(data);
 }

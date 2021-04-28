@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/aabet/projects/push_swap/push_swap/data_func.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/data_func.c.o"
+  "/Users/aabet/projects/push_swap/push_swap/checker/data_func.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/checker/data_func.c.o"
+  "/Users/aabet/projects/push_swap/push_swap/checker/main.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/checker/main.c.o"
+  "/Users/aabet/projects/push_swap/push_swap/checker/output_stacks.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/checker/output_stacks.c.o"
+  "/Users/aabet/projects/push_swap/push_swap/checker/swap_commands.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/checker/swap_commands.c.o"
+  "/Users/aabet/projects/push_swap/push_swap/checker/work_with_commands.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/checker/work_with_commands.c.o"
   "/Users/aabet/projects/push_swap/push_swap/doing_moves.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/doing_moves.c.o"
   "/Users/aabet/projects/push_swap/push_swap/gnl/get_next_line.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/gnl/get_next_line.c.o"
   "/Users/aabet/projects/push_swap/push_swap/gnl/get_next_line_utils.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/gnl/get_next_line_utils.c.o"
@@ -17,12 +21,14 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_isdigit.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_isdigit.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_isprint.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_isprint.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_itoa.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_itoa.c.o"
+  "/Users/aabet/projects/push_swap/push_swap/libft/ft_max.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_max.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_memccpy.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memccpy.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_memchr.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memchr.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_memcmp.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memcmp.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_memcpy.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memcpy.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_memmove.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memmove.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_memset.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memset.c.o"
+  "/Users/aabet/projects/push_swap/push_swap/libft/ft_min.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_min.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_putchar.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putchar.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_putchar_fd.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putchar_fd.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_putendl_fd.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putendl_fd.c.o"
@@ -44,10 +50,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_substr.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_substr.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_tolower.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_tolower.c.o"
   "/Users/aabet/projects/push_swap/push_swap/libft/ft_toupper.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_toupper.c.o"
-  "/Users/aabet/projects/push_swap/push_swap/main.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/main.c.o"
   "/Users/aabet/projects/push_swap/push_swap/push_swap.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap.c.o"
-  "/Users/aabet/projects/push_swap/push_swap/swap_commands.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/swap_commands.c.o"
-  "/Users/aabet/projects/push_swap/push_swap/work_with_commands.c" "/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/work_with_commands.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

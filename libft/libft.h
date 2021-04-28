@@ -71,6 +71,8 @@ t_list				*ft_lstmap(t_list *lst, void *(*f)(void *),
 						void (*del)(void *));
 void				ft_putchar(char c);
 void				ft_putstr(const char *str);
+int					ft_max(int a, int b);
+int					ft_min(int a, int b);
 
 
 #endif

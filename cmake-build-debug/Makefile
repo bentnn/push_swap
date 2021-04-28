@@ -142,32 +142,140 @@ push_swap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
-data_func.o: data_func.c.o
+checker/data_func.o: checker/data_func.c.o
 
-.PHONY : data_func.o
+.PHONY : checker/data_func.o
 
 # target to build an object file
-data_func.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/data_func.c.o
-.PHONY : data_func.c.o
+checker/data_func.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/data_func.c.o
+.PHONY : checker/data_func.c.o
 
-data_func.i: data_func.c.i
+checker/data_func.i: checker/data_func.c.i
 
-.PHONY : data_func.i
+.PHONY : checker/data_func.i
 
 # target to preprocess a source file
-data_func.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/data_func.c.i
-.PHONY : data_func.c.i
+checker/data_func.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/data_func.c.i
+.PHONY : checker/data_func.c.i
 
-data_func.s: data_func.c.s
+checker/data_func.s: checker/data_func.c.s
 
-.PHONY : data_func.s
+.PHONY : checker/data_func.s
 
 # target to generate assembly for a file
-data_func.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/data_func.c.s
-.PHONY : data_func.c.s
+checker/data_func.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/data_func.c.s
+.PHONY : checker/data_func.c.s
+
+checker/main.o: checker/main.c.o
+
+.PHONY : checker/main.o
+
+# target to build an object file
+checker/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/main.c.o
+.PHONY : checker/main.c.o
+
+checker/main.i: checker/main.c.i
+
+.PHONY : checker/main.i
+
+# target to preprocess a source file
+checker/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/main.c.i
+.PHONY : checker/main.c.i
+
+checker/main.s: checker/main.c.s
+
+.PHONY : checker/main.s
+
+# target to generate assembly for a file
+checker/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/main.c.s
+.PHONY : checker/main.c.s
+
+checker/output_stacks.o: checker/output_stacks.c.o
+
+.PHONY : checker/output_stacks.o
+
+# target to build an object file
+checker/output_stacks.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/output_stacks.c.o
+.PHONY : checker/output_stacks.c.o
+
+checker/output_stacks.i: checker/output_stacks.c.i
+
+.PHONY : checker/output_stacks.i
+
+# target to preprocess a source file
+checker/output_stacks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/output_stacks.c.i
+.PHONY : checker/output_stacks.c.i
+
+checker/output_stacks.s: checker/output_stacks.c.s
+
+.PHONY : checker/output_stacks.s
+
+# target to generate assembly for a file
+checker/output_stacks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/output_stacks.c.s
+.PHONY : checker/output_stacks.c.s
+
+checker/swap_commands.o: checker/swap_commands.c.o
+
+.PHONY : checker/swap_commands.o
+
+# target to build an object file
+checker/swap_commands.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/swap_commands.c.o
+.PHONY : checker/swap_commands.c.o
+
+checker/swap_commands.i: checker/swap_commands.c.i
+
+.PHONY : checker/swap_commands.i
+
+# target to preprocess a source file
+checker/swap_commands.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/swap_commands.c.i
+.PHONY : checker/swap_commands.c.i
+
+checker/swap_commands.s: checker/swap_commands.c.s
+
+.PHONY : checker/swap_commands.s
+
+# target to generate assembly for a file
+checker/swap_commands.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/swap_commands.c.s
+.PHONY : checker/swap_commands.c.s
+
+checker/work_with_commands.o: checker/work_with_commands.c.o
+
+.PHONY : checker/work_with_commands.o
+
+# target to build an object file
+checker/work_with_commands.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/work_with_commands.c.o
+.PHONY : checker/work_with_commands.c.o
+
+checker/work_with_commands.i: checker/work_with_commands.c.i
+
+.PHONY : checker/work_with_commands.i
+
+# target to preprocess a source file
+checker/work_with_commands.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/work_with_commands.c.i
+.PHONY : checker/work_with_commands.c.i
+
+checker/work_with_commands.s: checker/work_with_commands.c.s
+
+.PHONY : checker/work_with_commands.s
+
+# target to generate assembly for a file
+checker/work_with_commands.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/work_with_commands.c.s
+.PHONY : checker/work_with_commands.c.s
 
 doing_moves.o: doing_moves.c.o
 
@@ -493,6 +601,33 @@ libft/ft_itoa.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_itoa.c.s
 .PHONY : libft/ft_itoa.c.s
 
+libft/ft_max.o: libft/ft_max.c.o
+
+.PHONY : libft/ft_max.o
+
+# target to build an object file
+libft/ft_max.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_max.c.o
+.PHONY : libft/ft_max.c.o
+
+libft/ft_max.i: libft/ft_max.c.i
+
+.PHONY : libft/ft_max.i
+
+# target to preprocess a source file
+libft/ft_max.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_max.c.i
+.PHONY : libft/ft_max.c.i
+
+libft/ft_max.s: libft/ft_max.c.s
+
+.PHONY : libft/ft_max.s
+
+# target to generate assembly for a file
+libft/ft_max.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_max.c.s
+.PHONY : libft/ft_max.c.s
+
 libft/ft_memccpy.o: libft/ft_memccpy.c.o
 
 .PHONY : libft/ft_memccpy.o
@@ -654,6 +789,33 @@ libft/ft_memset.s: libft/ft_memset.c.s
 libft/ft_memset.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_memset.c.s
 .PHONY : libft/ft_memset.c.s
+
+libft/ft_min.o: libft/ft_min.c.o
+
+.PHONY : libft/ft_min.o
+
+# target to build an object file
+libft/ft_min.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_min.c.o
+.PHONY : libft/ft_min.c.o
+
+libft/ft_min.i: libft/ft_min.c.i
+
+.PHONY : libft/ft_min.i
+
+# target to preprocess a source file
+libft/ft_min.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_min.c.i
+.PHONY : libft/ft_min.c.i
+
+libft/ft_min.s: libft/ft_min.c.s
+
+.PHONY : libft/ft_min.s
+
+# target to generate assembly for a file
+libft/ft_min.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_min.c.s
+.PHONY : libft/ft_min.c.s
 
 libft/ft_putchar.o: libft/ft_putchar.c.o
 
@@ -1222,33 +1384,6 @@ libft/ft_toupper.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_toupper.c.s
 .PHONY : libft/ft_toupper.c.s
 
-main.o: main.c.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/main.c.o
-.PHONY : main.c.o
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/main.c.s
-.PHONY : main.c.s
-
 push_swap.o: push_swap.c.o
 
 .PHONY : push_swap.o
@@ -1276,60 +1411,6 @@ push_swap.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap.c.s
 .PHONY : push_swap.c.s
 
-swap_commands.o: swap_commands.c.o
-
-.PHONY : swap_commands.o
-
-# target to build an object file
-swap_commands.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/swap_commands.c.o
-.PHONY : swap_commands.c.o
-
-swap_commands.i: swap_commands.c.i
-
-.PHONY : swap_commands.i
-
-# target to preprocess a source file
-swap_commands.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/swap_commands.c.i
-.PHONY : swap_commands.c.i
-
-swap_commands.s: swap_commands.c.s
-
-.PHONY : swap_commands.s
-
-# target to generate assembly for a file
-swap_commands.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/swap_commands.c.s
-.PHONY : swap_commands.c.s
-
-work_with_commands.o: work_with_commands.c.o
-
-.PHONY : work_with_commands.o
-
-# target to build an object file
-work_with_commands.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/work_with_commands.c.o
-.PHONY : work_with_commands.c.o
-
-work_with_commands.i: work_with_commands.c.i
-
-.PHONY : work_with_commands.i
-
-# target to preprocess a source file
-work_with_commands.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/work_with_commands.c.i
-.PHONY : work_with_commands.c.i
-
-work_with_commands.s: work_with_commands.c.s
-
-.PHONY : work_with_commands.s
-
-# target to generate assembly for a file
-work_with_commands.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/work_with_commands.c.s
-.PHONY : work_with_commands.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1339,9 +1420,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... push_swap"
-	@echo "... data_func.o"
-	@echo "... data_func.i"
-	@echo "... data_func.s"
+	@echo "... checker/data_func.o"
+	@echo "... checker/data_func.i"
+	@echo "... checker/data_func.s"
+	@echo "... checker/main.o"
+	@echo "... checker/main.i"
+	@echo "... checker/main.s"
+	@echo "... checker/output_stacks.o"
+	@echo "... checker/output_stacks.i"
+	@echo "... checker/output_stacks.s"
+	@echo "... checker/swap_commands.o"
+	@echo "... checker/swap_commands.i"
+	@echo "... checker/swap_commands.s"
+	@echo "... checker/work_with_commands.o"
+	@echo "... checker/work_with_commands.i"
+	@echo "... checker/work_with_commands.s"
 	@echo "... doing_moves.o"
 	@echo "... doing_moves.i"
 	@echo "... doing_moves.s"
@@ -1378,6 +1471,9 @@ help:
 	@echo "... libft/ft_itoa.o"
 	@echo "... libft/ft_itoa.i"
 	@echo "... libft/ft_itoa.s"
+	@echo "... libft/ft_max.o"
+	@echo "... libft/ft_max.i"
+	@echo "... libft/ft_max.s"
 	@echo "... libft/ft_memccpy.o"
 	@echo "... libft/ft_memccpy.i"
 	@echo "... libft/ft_memccpy.s"
@@ -1396,6 +1492,9 @@ help:
 	@echo "... libft/ft_memset.o"
 	@echo "... libft/ft_memset.i"
 	@echo "... libft/ft_memset.s"
+	@echo "... libft/ft_min.o"
+	@echo "... libft/ft_min.i"
+	@echo "... libft/ft_min.s"
 	@echo "... libft/ft_putchar.o"
 	@echo "... libft/ft_putchar.i"
 	@echo "... libft/ft_putchar.s"
@@ -1459,18 +1558,9 @@ help:
 	@echo "... libft/ft_toupper.o"
 	@echo "... libft/ft_toupper.i"
 	@echo "... libft/ft_toupper.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... push_swap.o"
 	@echo "... push_swap.i"
 	@echo "... push_swap.s"
-	@echo "... swap_commands.o"
-	@echo "... swap_commands.i"
-	@echo "... swap_commands.s"
-	@echo "... work_with_commands.o"
-	@echo "... work_with_commands.i"
-	@echo "... work_with_commands.s"
 .PHONY : help
 
 

@@ -3,13 +3,14 @@ project(push_swap C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(push_swap main.c checker.h data_func.c
+add_executable(push_swap checker/main.c checker/checker.h checker/data_func.c
 
         gnl/get_next_line.h
         gnl/get_next_line.c
         gnl/get_next_line_utils.c
         gnl/gnl_systemic.h
 
+        libft/ft_min.c
         libft/ft_atoi.c
         libft/ft_bzero.c
         libft/ft_isalnum.c
@@ -45,4 +46,4 @@ add_executable(push_swap main.c checker.h data_func.c
         libft/ft_strmapi.c
         libft/ft_split.c
         libft/ft_putchar.c
-        libft/ft_putstr.c work_with_commands.c swap_commands.c swap_commands.h push_swap.c doing_moves.c)
+        libft/ft_putstr.c checker/work_with_commands.c checker/swap_commands.c checker/swap_commands.h push_swap.c doing_moves.c checker/output_stacks.c libft/ft_max.c)

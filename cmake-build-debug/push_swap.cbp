@@ -78,10 +78,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker.h">
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/checker.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/data_func.c">
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/data_func.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/main.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/output_stacks.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/swap_commands.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/swap_commands.h">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/work_with_commands.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/doing_moves.c">
@@ -126,6 +141,9 @@
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_itoa.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_max.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_memccpy.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -142,6 +160,9 @@
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_memset.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_min.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_putchar.c">
@@ -207,19 +228,7 @@
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_toupper.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/main.c">
-			<Option target="push_swap"/>
-		</Unit>
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/push_swap.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/swap_commands.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/swap_commands.h">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/work_with_commands.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/CMakeLists.txt">

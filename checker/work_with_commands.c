@@ -1,14 +1,14 @@
 #include "checker.h"
 #include "swap_commands.h"
 
-void checker_error(t_data *data)
+void	checker_error(t_data *data)
 {
 	delete_data(data);
-	ft_putstr("ERROR!!!\n");
+	ft_putstr("Error\n");
 	exit(1);
 }
 
-void find_command(t_data *data, char *line)
+void	find_command(t_data *data, char *line)
 {
 	if (line[0] == 's' && ft_strlen(line) == 2)
 	{
@@ -56,10 +56,10 @@ void find_command(t_data *data, char *line)
 		checker_error(data);
 }
 
-void work_with_commands(t_data *data)
+void	work_with_commands(t_data *data)
 {
-	int res;
-	char *line;
+	int		res;
+	char	*line;
 
 	while (1)
 	{
@@ -79,7 +79,6 @@ void work_with_commands(t_data *data)
 		if (res == 0 || ft_strlen(line) == 0)
 		{
 			free(line);
-			ft_strlen("end\n");
 			return;
 		}
 		free(line);
