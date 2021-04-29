@@ -25,7 +25,8 @@ static char	*str_check_and_join(char *str1, const char *str2, int fr)
 	size2 = 0;
 	while (str2[size2] && str2[size2] != '\n')
 		size2++;
-	if (!(new = malloc(sizeof(char) * (gnl_strlen(str1) + size2 + 1))))
+	new = malloc(sizeof(char) * (gnl_strlen(str1) + size2 + 1));
+	if (!new)
 		return (0);
 	j = 0;
 	k = 0;
@@ -56,7 +57,8 @@ static char	*make_residual_str(char *buf, int fr)
 	i = j;
 	while (buf[i])
 		i++;
-	if (!(new = malloc(sizeof(char) * (i - j + 1))))
+	new = malloc(sizeof(char) * (i - j + 1));
+	if (!new)
 		return (0);
 	k = 0;
 	while (j < i)
@@ -72,35 +74,36 @@ static int	read_from_fd(char **def, char **new, int fd, char **line)
 	char	*buf;
 	int		res;
 
-	if (!(buf = malloc(sizeof(char) * (BUFFER_SIZE + 1))))
+	buf = malloc(sizeof(char) * (BUFFER_SIZE + 1));
+	if (!buf)
 		return (return_error(buf, *new));
-	while ((res = read(fd, buf, BUFFER_SIZE)) != 0)
+	while (read_and_ret_res(fd, buf, &res) != 0)
 	{
-		if (res == -1)
+		if (check_res_and_set_buf(res, buf) == -1)
 			return (return_error(buf, 0));
-		buf[res] = '\0';
-		if (!(*new = str_check_and_join(*new, buf, 1)))
+		*new = str_check_and_join(*new, buf, 1);
+		if (!*new)
 			return (return_error(*def, buf));
 		if (gnl_strchr(buf, '\n') >= 0)
 		{
 			if (*def)
 				free(*def);
-			if (!(*def = make_residual_str(buf, 0)))
+			*def = make_residual_str(buf, 0);
+			if (!*def)
 				return (return_error(*def, buf));
-			free(buf);
 			*line = *new;
-			return (1);
+			return (ret_and_free(buf, 1));
 		}
 	}
-	free(buf);
-	return (0);
+	return (ret_and_free(buf, 0));
 }
 
 static int	have_n(char **line, char **def, char **new)
 {
 	if (gnl_strchr(*def, '\n') >= 0)
 	{
-		if (!(*def = make_residual_str(*def, 1)))
+		*def = make_residual_str(*def, 1);
+		if (!*def)
 			return (return_error(*def, *new));
 		*line = *new;
 		return (1);
@@ -108,7 +111,7 @@ static int	have_n(char **line, char **def, char **new)
 	return (0);
 }
 
-int			get_next_line(int fd, char **line)
+int	get_next_line(int fd, char **line)
 {
 	static char	*def;
 	char		*new;
@@ -116,22 +119,17 @@ int			get_next_line(int fd, char **line)
 
 	if (BUFFER_SIZE <= 0 || fd < 0 || !line || read(fd, 0, 0) == -1)
 		return (return_error(def, 0));
-	if (!(new = str_check_and_join(0, def, 0)) && def != NULL)
+	new = str_check_and_join(0, def, 0);
+	if (!new && def != NULL)
 		return (return_error(def, 0));
 	if (have_n(line, &def, &new))
 		return (1);
-	if ((res = read_from_fd(&def, &new, fd, line)) == 1)
+	res = read_from_fd(&def, &new, fd, line);
+	if (res == 1)
 		return (1);
 	else if (res == -1)
 		return (return_error(new, def));
 	free(def);
 	def = NULL;
-	if (!new)
-	{
-		if (!(new = malloc(sizeof(char))))
-			return (-1);
-		new[0] = '\0';
-	}
-	*line = new;
-	return (0);
+	return (end_of_gnl(new, line));
 }

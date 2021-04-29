@@ -67,10 +67,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/aabet/projects/push_swap/push_swap
+CMAKE_SOURCE_DIR = /Users/aabet/projects/get_next_line/push_swap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aabet/projects/push_swap/push_swap/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/aabet/projects/get_next_line/push_swap/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles /Users/aabet/projects/push_swap/push_swap/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/CMakeFiles /Users/aabet/projects/get_next_line/push_swap/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -169,6 +169,33 @@ checker/data_func.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/data_func.c.s
 .PHONY : checker/data_func.c.s
 
+checker/find_command.o: checker/find_command.c.o
+
+.PHONY : checker/find_command.o
+
+# target to build an object file
+checker/find_command.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/find_command.c.o
+.PHONY : checker/find_command.c.o
+
+checker/find_command.i: checker/find_command.c.i
+
+.PHONY : checker/find_command.i
+
+# target to preprocess a source file
+checker/find_command.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/find_command.c.i
+.PHONY : checker/find_command.c.i
+
+checker/find_command.s: checker/find_command.c.s
+
+.PHONY : checker/find_command.s
+
+# target to generate assembly for a file
+checker/find_command.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/find_command.c.s
+.PHONY : checker/find_command.c.s
+
 checker/main.o: checker/main.c.o
 
 .PHONY : checker/main.o
@@ -222,6 +249,87 @@ checker/output_stacks.s: checker/output_stacks.c.s
 checker/output_stacks.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/output_stacks.c.s
 .PHONY : checker/output_stacks.c.s
+
+checker/push_commands_checker.o: checker/push_commands_checker.c.o
+
+.PHONY : checker/push_commands_checker.o
+
+# target to build an object file
+checker/push_commands_checker.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/push_commands_checker.c.o
+.PHONY : checker/push_commands_checker.c.o
+
+checker/push_commands_checker.i: checker/push_commands_checker.c.i
+
+.PHONY : checker/push_commands_checker.i
+
+# target to preprocess a source file
+checker/push_commands_checker.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/push_commands_checker.c.i
+.PHONY : checker/push_commands_checker.c.i
+
+checker/push_commands_checker.s: checker/push_commands_checker.c.s
+
+.PHONY : checker/push_commands_checker.s
+
+# target to generate assembly for a file
+checker/push_commands_checker.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/push_commands_checker.c.s
+.PHONY : checker/push_commands_checker.c.s
+
+checker/reverse_rotate_commands_checker.o: checker/reverse_rotate_commands_checker.c.o
+
+.PHONY : checker/reverse_rotate_commands_checker.o
+
+# target to build an object file
+checker/reverse_rotate_commands_checker.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.o
+.PHONY : checker/reverse_rotate_commands_checker.c.o
+
+checker/reverse_rotate_commands_checker.i: checker/reverse_rotate_commands_checker.c.i
+
+.PHONY : checker/reverse_rotate_commands_checker.i
+
+# target to preprocess a source file
+checker/reverse_rotate_commands_checker.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.i
+.PHONY : checker/reverse_rotate_commands_checker.c.i
+
+checker/reverse_rotate_commands_checker.s: checker/reverse_rotate_commands_checker.c.s
+
+.PHONY : checker/reverse_rotate_commands_checker.s
+
+# target to generate assembly for a file
+checker/reverse_rotate_commands_checker.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.s
+.PHONY : checker/reverse_rotate_commands_checker.c.s
+
+checker/rotate_commands_checker.o: checker/rotate_commands_checker.c.o
+
+.PHONY : checker/rotate_commands_checker.o
+
+# target to build an object file
+checker/rotate_commands_checker.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.o
+.PHONY : checker/rotate_commands_checker.c.o
+
+checker/rotate_commands_checker.i: checker/rotate_commands_checker.c.i
+
+.PHONY : checker/rotate_commands_checker.i
+
+# target to preprocess a source file
+checker/rotate_commands_checker.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.i
+.PHONY : checker/rotate_commands_checker.c.i
+
+checker/rotate_commands_checker.s: checker/rotate_commands_checker.c.s
+
+.PHONY : checker/rotate_commands_checker.s
+
+# target to generate assembly for a file
+checker/rotate_commands_checker.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.s
+.PHONY : checker/rotate_commands_checker.c.s
 
 checker/swap_commands.o: checker/swap_commands.c.o
 
@@ -357,6 +465,33 @@ gnl/get_next_line_utils.s: gnl/get_next_line_utils.c.s
 gnl/get_next_line_utils.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/gnl/get_next_line_utils.c.s
 .PHONY : gnl/get_next_line_utils.c.s
+
+gnl/gnl_update.o: gnl/gnl_update.c.o
+
+.PHONY : gnl/gnl_update.o
+
+# target to build an object file
+gnl/gnl_update.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/gnl/gnl_update.c.o
+.PHONY : gnl/gnl_update.c.o
+
+gnl/gnl_update.i: gnl/gnl_update.c.i
+
+.PHONY : gnl/gnl_update.i
+
+# target to preprocess a source file
+gnl/gnl_update.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/gnl/gnl_update.c.i
+.PHONY : gnl/gnl_update.c.i
+
+gnl/gnl_update.s: gnl/gnl_update.c.s
+
+.PHONY : gnl/gnl_update.s
+
+# target to generate assembly for a file
+gnl/gnl_update.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/gnl/gnl_update.c.s
+.PHONY : gnl/gnl_update.c.s
 
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
@@ -1423,12 +1558,24 @@ help:
 	@echo "... checker/data_func.o"
 	@echo "... checker/data_func.i"
 	@echo "... checker/data_func.s"
+	@echo "... checker/find_command.o"
+	@echo "... checker/find_command.i"
+	@echo "... checker/find_command.s"
 	@echo "... checker/main.o"
 	@echo "... checker/main.i"
 	@echo "... checker/main.s"
 	@echo "... checker/output_stacks.o"
 	@echo "... checker/output_stacks.i"
 	@echo "... checker/output_stacks.s"
+	@echo "... checker/push_commands_checker.o"
+	@echo "... checker/push_commands_checker.i"
+	@echo "... checker/push_commands_checker.s"
+	@echo "... checker/reverse_rotate_commands_checker.o"
+	@echo "... checker/reverse_rotate_commands_checker.i"
+	@echo "... checker/reverse_rotate_commands_checker.s"
+	@echo "... checker/rotate_commands_checker.o"
+	@echo "... checker/rotate_commands_checker.i"
+	@echo "... checker/rotate_commands_checker.s"
 	@echo "... checker/swap_commands.o"
 	@echo "... checker/swap_commands.i"
 	@echo "... checker/swap_commands.s"
@@ -1444,6 +1591,9 @@ help:
 	@echo "... gnl/get_next_line_utils.o"
 	@echo "... gnl/get_next_line_utils.i"
 	@echo "... gnl/get_next_line_utils.s"
+	@echo "... gnl/gnl_update.o"
+	@echo "... gnl/gnl_update.i"
+	@echo "... gnl/gnl_update.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"

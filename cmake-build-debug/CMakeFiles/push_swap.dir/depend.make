@@ -6,6 +6,12 @@ CMakeFiles/push_swap.dir/checker/data_func.c.o: ../checker/data_func.c
 CMakeFiles/push_swap.dir/checker/data_func.c.o: ../gnl/get_next_line.h
 CMakeFiles/push_swap.dir/checker/data_func.c.o: ../libft/libft.h
 
+CMakeFiles/push_swap.dir/checker/find_command.c.o: ../checker/checker.h
+CMakeFiles/push_swap.dir/checker/find_command.c.o: ../checker/find_command.c
+CMakeFiles/push_swap.dir/checker/find_command.c.o: ../checker/swap_commands.h
+CMakeFiles/push_swap.dir/checker/find_command.c.o: ../gnl/get_next_line.h
+CMakeFiles/push_swap.dir/checker/find_command.c.o: ../libft/libft.h
+
 CMakeFiles/push_swap.dir/checker/main.c.o: ../checker/checker.h
 CMakeFiles/push_swap.dir/checker/main.c.o: ../checker/main.c
 CMakeFiles/push_swap.dir/checker/main.c.o: ../gnl/get_next_line.h
@@ -16,14 +22,26 @@ CMakeFiles/push_swap.dir/checker/output_stacks.c.o: ../checker/output_stacks.c
 CMakeFiles/push_swap.dir/checker/output_stacks.c.o: ../gnl/get_next_line.h
 CMakeFiles/push_swap.dir/checker/output_stacks.c.o: ../libft/libft.h
 
-CMakeFiles/push_swap.dir/checker/swap_commands.c.o: ../checker/checker.h
-CMakeFiles/push_swap.dir/checker/swap_commands.c.o: ../checker/swap_commands.c
-CMakeFiles/push_swap.dir/checker/swap_commands.c.o: ../checker/swap_commands.h
-CMakeFiles/push_swap.dir/checker/swap_commands.c.o: ../gnl/get_next_line.h
-CMakeFiles/push_swap.dir/checker/swap_commands.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/checker/push_commands_checker.c.o: ../checker/checker.h
+CMakeFiles/push_swap.dir/checker/push_commands_checker.c.o: ../checker/push_commands_checker.c
+CMakeFiles/push_swap.dir/checker/push_commands_checker.c.o: ../checker/swap_commands.h
+CMakeFiles/push_swap.dir/checker/push_commands_checker.c.o: ../gnl/get_next_line.h
+CMakeFiles/push_swap.dir/checker/push_commands_checker.c.o: ../libft/libft.h
+
+CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.o: ../checker/checker.h
+CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.o: ../checker/reverse_rotate_commands_checker.c
+CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.o: ../checker/swap_commands.h
+CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.o: ../gnl/get_next_line.h
+CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.o: ../libft/libft.h
+
+CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.o: ../checker/checker.h
+CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.o: ../checker/rotate_commands_checker.c
+CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.o: ../checker/swap_commands.h
+CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.o: ../gnl/get_next_line.h
+CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.o: ../libft/libft.h
+
 
 CMakeFiles/push_swap.dir/checker/work_with_commands.c.o: ../checker/checker.h
-CMakeFiles/push_swap.dir/checker/work_with_commands.c.o: ../checker/swap_commands.h
 CMakeFiles/push_swap.dir/checker/work_with_commands.c.o: ../checker/work_with_commands.c
 CMakeFiles/push_swap.dir/checker/work_with_commands.c.o: ../gnl/get_next_line.h
 CMakeFiles/push_swap.dir/checker/work_with_commands.c.o: ../libft/libft.h
@@ -40,6 +58,10 @@ CMakeFiles/push_swap.dir/gnl/get_next_line.c.o: ../gnl/gnl_systemic.h
 
 CMakeFiles/push_swap.dir/gnl/get_next_line_utils.c.o: ../gnl/get_next_line_utils.c
 CMakeFiles/push_swap.dir/gnl/get_next_line_utils.c.o: ../gnl/gnl_systemic.h
+
+CMakeFiles/push_swap.dir/gnl/gnl_update.c.o: ../gnl/get_next_line.h
+CMakeFiles/push_swap.dir/gnl/gnl_update.c.o: ../gnl/gnl_systemic.h
+CMakeFiles/push_swap.dir/gnl/gnl_update.c.o: ../gnl/gnl_update.c
 
 CMakeFiles/push_swap.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
 CMakeFiles/push_swap.dir/libft/ft_atoi.c.o: ../libft/libft.h

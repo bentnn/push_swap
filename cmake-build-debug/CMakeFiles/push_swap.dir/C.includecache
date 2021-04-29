@@ -6,25 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/Users/aabet/projects/push_swap/push_swap/checker/checker.h
-../libft/libft.h
-/Users/aabet/projects/push_swap/push_swap/libft/libft.h
-../gnl/get_next_line.h
-/Users/aabet/projects/push_swap/push_swap/gnl/get_next_line.h
+/Users/aabet/projects/get_next_line/push_swap/gnl/get_next_line.c
+get_next_line.h
+/Users/aabet/projects/get_next_line/push_swap/gnl/get_next_line.h
+gnl_systemic.h
+/Users/aabet/projects/get_next_line/push_swap/gnl/gnl_systemic.h
 
-/Users/aabet/projects/push_swap/push_swap/checker/output_stacks.c
-checker.h
-/Users/aabet/projects/push_swap/push_swap/checker/checker.h
+/Users/aabet/projects/get_next_line/push_swap/gnl/get_next_line.h
 
-/Users/aabet/projects/push_swap/push_swap/gnl/get_next_line.h
+/Users/aabet/projects/get_next_line/push_swap/gnl/get_next_line_utils.c
+gnl_systemic.h
+/Users/aabet/projects/get_next_line/push_swap/gnl/gnl_systemic.h
 
-/Users/aabet/projects/push_swap/push_swap/libft/libft.h
-string.h
+/Users/aabet/projects/get_next_line/push_swap/gnl/gnl_systemic.h
+unistd.h
 -
 stdlib.h
 -
-limits.h
--
-unistd.h
--
+
+/Users/aabet/projects/get_next_line/push_swap/gnl/gnl_update.c
+gnl_systemic.h
+/Users/aabet/projects/get_next_line/push_swap/gnl/gnl_systemic.h
+get_next_line.h
+/Users/aabet/projects/get_next_line/push_swap/gnl/get_next_line.h
 

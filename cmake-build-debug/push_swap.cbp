@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/aabet/projects/push_swap/push_swap/cmake-build-debug"/>
+				<Option working_dir="/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/aabet/projects/push_swap/push_swap/cmake-build-debug"/>
+				<Option working_dir="/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/aabet/projects/push_swap/push_swap/cmake-build-debug"/>
+				<Option working_dir="/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="push_swap">
-				<Option output="/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aabet/projects/push_swap/push_swap/cmake-build-debug"/>
+				<Option output="/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="push_swap/fast">
-				<Option output="/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aabet/projects/push_swap/push_swap/cmake-build-debug"/>
+				<Option output="/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,167 +71,182 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/checker.h">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/checker/checker.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/data_func.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/checker/data_func.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/main.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/checker/find_command.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/output_stacks.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/checker/main.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/swap_commands.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/checker/output_stacks.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/swap_commands.h">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/checker/push_commands_checker.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/work_with_commands.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/checker/reverse_rotate_commands_checker.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/doing_moves.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/checker/rotate_commands_checker.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/gnl/get_next_line.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/checker/swap_commands.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/gnl/get_next_line.h">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/checker/swap_commands.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/gnl/get_next_line_utils.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/checker/work_with_commands.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/gnl/gnl_systemic.h">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/doing_moves.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_atoi.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/gnl/get_next_line.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_bzero.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/gnl/get_next_line.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_calloc.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/gnl/get_next_line_utils.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_isalnum.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/gnl/gnl_systemic.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_isalpha.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/gnl/gnl_update.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_isascii.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_atoi.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_isdigit.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_bzero.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_isprint.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_calloc.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_itoa.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_isalnum.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_max.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_isalpha.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_memccpy.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_isascii.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_memchr.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_isdigit.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_memcmp.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_isprint.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_memcpy.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_itoa.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_memmove.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_max.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_memset.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_memccpy.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_min.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_memchr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_putchar.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_memcmp.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_putchar_fd.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_memcpy.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_putendl_fd.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_memmove.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_putnbr_fd.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_memset.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_putstr.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_min.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_putstr_fd.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_putchar.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_split.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_putchar_fd.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strchr.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_putendl_fd.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strdup.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_putnbr_fd.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strjoin.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_putstr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strlcat.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_putstr_fd.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strlcpy.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_split.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strlen.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_strchr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strmapi.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_strdup.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strncmp.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_strjoin.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strnstr.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_strlcat.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strrchr.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_strlcpy.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_strtrim.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_strlen.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_substr.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_strmapi.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_tolower.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_strncmp.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/libft/ft_toupper.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_strnstr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/push_swap.c">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_strrchr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/CMakeLists.txt">
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_strtrim.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_substr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_tolower.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/libft/ft_toupper.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/push_swap.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aabet/projects/get_next_line/push_swap/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

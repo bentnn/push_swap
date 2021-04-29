@@ -46,4 +46,6 @@ add_executable(push_swap checker/main.c checker/checker.h checker/data_func.c
         libft/ft_strmapi.c
         libft/ft_split.c
         libft/ft_putchar.c
-        libft/ft_putstr.c checker/work_with_commands.c checker/swap_commands.c checker/swap_commands.h push_swap.c doing_moves.c checker/output_stacks.c libft/ft_max.c)
+        libft/ft_putstr.c checker/work_with_commands.c checker/swap_commands.c checker/swap_commands.h push_swap.c
+        doing_moves.c checker/output_stacks.c libft/ft_max.c checker/find_command.c checker/push_commands_checker.c checker/reverse_rotate_commands_checker.c
+        checker/rotate_commands_checker.c gnl/gnl_update.c)

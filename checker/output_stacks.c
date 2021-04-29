@@ -1,4 +1,4 @@
-#include "checker.h"v
+#include "checker.h"
 
 int	find_max_len(int *array, int size)
 {

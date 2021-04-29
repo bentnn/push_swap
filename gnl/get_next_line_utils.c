@@ -12,9 +12,9 @@
 
 #include "gnl_systemic.h"
 
-int		gnl_strlen(const char *str)
+int	gnl_strlen(const char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	if (str)
@@ -23,7 +23,7 @@ int		gnl_strlen(const char *str)
 	return (i);
 }
 
-int		return_error(char *str1, char *str2)
+int	return_error(char *str1, char *str2)
 {
 	if (str1)
 	{
@@ -38,9 +38,9 @@ int		return_error(char *str1, char *str2)
 	return (-1);
 }
 
-int		gnl_strchr(const char *str, int c)
+int	gnl_strchr(const char *str, int c)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	if (!str)

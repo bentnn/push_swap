@@ -47,7 +47,9 @@ SRCS	=	ft_atoi.c\
 			ft_strmapi.c\
 			ft_split.c\
 			ft_putchar.c\
-			ft_putstr.c
+			ft_putstr.c\
+			ft_min.c\
+			ft_max.c
 
 SRCS_B	=	ft_lstnew.c\
             ft_lstadd_front.c\

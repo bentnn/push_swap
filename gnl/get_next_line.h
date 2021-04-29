@@ -15,8 +15,8 @@
 
 int		get_next_line(int fd, char **line);
 
-#endif
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 100
+# endif
 
-#ifndef BUFFER_SIZE
-# define BUFFER_SIZE 100
 #endif
