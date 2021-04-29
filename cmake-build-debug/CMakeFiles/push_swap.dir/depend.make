@@ -40,17 +40,16 @@ CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.o: ../checker/swap_co
 CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.o: ../gnl/get_next_line.h
 CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.o: ../libft/libft.h
 
+CMakeFiles/push_swap.dir/checker/swap_commands.c.o: ../checker/checker.h
+CMakeFiles/push_swap.dir/checker/swap_commands.c.o: ../checker/swap_commands.c
+CMakeFiles/push_swap.dir/checker/swap_commands.c.o: ../checker/swap_commands.h
+CMakeFiles/push_swap.dir/checker/swap_commands.c.o: ../gnl/get_next_line.h
+CMakeFiles/push_swap.dir/checker/swap_commands.c.o: ../libft/libft.h
 
 CMakeFiles/push_swap.dir/checker/work_with_commands.c.o: ../checker/checker.h
 CMakeFiles/push_swap.dir/checker/work_with_commands.c.o: ../checker/work_with_commands.c
 CMakeFiles/push_swap.dir/checker/work_with_commands.c.o: ../gnl/get_next_line.h
 CMakeFiles/push_swap.dir/checker/work_with_commands.c.o: ../libft/libft.h
-
-CMakeFiles/push_swap.dir/doing_moves.c.o: ../checker/checker.h
-CMakeFiles/push_swap.dir/doing_moves.c.o: ../checker/swap_commands.h
-CMakeFiles/push_swap.dir/doing_moves.c.o: ../doing_moves.c
-CMakeFiles/push_swap.dir/doing_moves.c.o: ../gnl/get_next_line.h
-CMakeFiles/push_swap.dir/doing_moves.c.o: ../libft/libft.h
 
 CMakeFiles/push_swap.dir/gnl/get_next_line.c.o: ../gnl/get_next_line.c
 CMakeFiles/push_swap.dir/gnl/get_next_line.c.o: ../gnl/get_next_line.h
@@ -167,10 +166,4 @@ CMakeFiles/push_swap.dir/libft/ft_substr.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/libft/ft_tolower.c.o: ../libft/ft_tolower.c
 
 CMakeFiles/push_swap.dir/libft/ft_toupper.c.o: ../libft/ft_toupper.c
-
-CMakeFiles/push_swap.dir/push_swap.c.o: ../checker/checker.h
-CMakeFiles/push_swap.dir/push_swap.c.o: ../checker/swap_commands.h
-CMakeFiles/push_swap.dir/push_swap.c.o: ../gnl/get_next_line.h
-CMakeFiles/push_swap.dir/push_swap.c.o: ../libft/libft.h
-CMakeFiles/push_swap.dir/push_swap.c.o: ../push_swap.c
 

@@ -67,10 +67,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/aabet/projects/get_next_line/push_swap
+CMAKE_SOURCE_DIR = /Users/aabet/projects/push_swap/push_swap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aabet/projects/get_next_line/push_swap/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/aabet/projects/push_swap/push_swap/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/CMakeFiles /Users/aabet/projects/get_next_line/push_swap/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles /Users/aabet/projects/push_swap/push_swap/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aabet/projects/get_next_line/push_swap/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -384,33 +384,6 @@ checker/work_with_commands.s: checker/work_with_commands.c.s
 checker/work_with_commands.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/work_with_commands.c.s
 .PHONY : checker/work_with_commands.c.s
-
-doing_moves.o: doing_moves.c.o
-
-.PHONY : doing_moves.o
-
-# target to build an object file
-doing_moves.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/doing_moves.c.o
-.PHONY : doing_moves.c.o
-
-doing_moves.i: doing_moves.c.i
-
-.PHONY : doing_moves.i
-
-# target to preprocess a source file
-doing_moves.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/doing_moves.c.i
-.PHONY : doing_moves.c.i
-
-doing_moves.s: doing_moves.c.s
-
-.PHONY : doing_moves.s
-
-# target to generate assembly for a file
-doing_moves.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/doing_moves.c.s
-.PHONY : doing_moves.c.s
 
 gnl/get_next_line.o: gnl/get_next_line.c.o
 
@@ -1519,33 +1492,6 @@ libft/ft_toupper.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_toupper.c.s
 .PHONY : libft/ft_toupper.c.s
 
-push_swap.o: push_swap.c.o
-
-.PHONY : push_swap.o
-
-# target to build an object file
-push_swap.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap.c.o
-.PHONY : push_swap.c.o
-
-push_swap.i: push_swap.c.i
-
-.PHONY : push_swap.i
-
-# target to preprocess a source file
-push_swap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap.c.i
-.PHONY : push_swap.c.i
-
-push_swap.s: push_swap.c.s
-
-.PHONY : push_swap.s
-
-# target to generate assembly for a file
-push_swap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap.c.s
-.PHONY : push_swap.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1582,9 +1528,6 @@ help:
 	@echo "... checker/work_with_commands.o"
 	@echo "... checker/work_with_commands.i"
 	@echo "... checker/work_with_commands.s"
-	@echo "... doing_moves.o"
-	@echo "... doing_moves.i"
-	@echo "... doing_moves.s"
 	@echo "... gnl/get_next_line.o"
 	@echo "... gnl/get_next_line.i"
 	@echo "... gnl/get_next_line.s"
@@ -1708,9 +1651,6 @@ help:
 	@echo "... libft/ft_toupper.o"
 	@echo "... libft/ft_toupper.i"
 	@echo "... libft/ft_toupper.s"
-	@echo "... push_swap.o"
-	@echo "... push_swap.i"
-	@echo "... push_swap.s"
 .PHONY : help
 
 

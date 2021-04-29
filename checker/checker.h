@@ -4,23 +4,12 @@
 # include "../libft/libft.h"
 # include "../gnl/get_next_line.h"
 
-typedef struct s_ways
-{
-	int	ra_rb;
-	int	ra_rrb;
-	int	rra_rrb;
-	int	rra_rb;
-}				t_ways;
-
 typedef struct s_data
 {
 	int		*array;
 	int		*second_array;
 	int		size;
 	int		size2;
-	int		*a_moves;
-	int		*b_moves;
-	t_ways	*b_ways;
 }				t_data;
 
 void	create_array_of_int(t_data *data, int argc, char **argv);

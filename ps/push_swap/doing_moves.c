@@ -1,7 +1,7 @@
-#include "checker/checker.h"
-#include "checker/swap_commands.h"
+#include "push_swap.h"
+#include "swap_commands_ps.h"
 
-void rra_rb(t_data *data, int bfr_that, int pos)
+void	rra_rb(t_data *data, int bfr_that, int pos)
 {
 	bfr_that = data->array[bfr_that];
 	pos = data->second_array[pos];
@@ -19,7 +19,7 @@ void rra_rb(t_data *data, int bfr_that, int pos)
 	ft_putstr("pa\n");
 }
 
-void ra_rb(t_data *data, int bfr_that, int pos)
+void	ra_rb(t_data *data, int bfr_that, int pos)
 {
 	bfr_that = data->array[bfr_that];
 	pos = data->second_array[pos];
@@ -42,7 +42,7 @@ void ra_rb(t_data *data, int bfr_that, int pos)
 	ft_putstr("pa\n");
 }
 
-void rra_rrb(t_data *data, int bfr_that, int pos)
+void	rra_rrb(t_data *data, int bfr_that, int pos)
 {
 	bfr_that = data->array[bfr_that];
 	pos = data->second_array[pos];
@@ -65,7 +65,7 @@ void rra_rrb(t_data *data, int bfr_that, int pos)
 	ft_putstr("pa\n");
 }
 
-void ra_rrb(t_data *data, int bfr_that, int pos)
+void	ra_rrb(t_data *data, int bfr_that, int pos)
 {
 	bfr_that = data->array[bfr_that];
 	pos = data->second_array[pos];
