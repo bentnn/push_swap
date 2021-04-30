@@ -34,9 +34,10 @@ SRCS2 = 	    checker_files/main.c \
 				gnl/get_next_line_utils.c \
 				gnl/gnl_update.c
 
-OBJS1 = 		$(SRCS1:.c=.o)
+OBJS1 := $(SRCS1:.c=.o)
 
-OBJS2 = 		$(SRCS2:.c=.o)
+OBJS2 := $(SRCS2:.c=.o)
+
 
 OBJS = 			$(OBJS1) $(OBJS2)
 
@@ -47,22 +48,15 @@ CFLAGS =	-Wall -Werror -Wextra
 LIB_FLAGS =	-L libft -lft
 RM =		rm -f
 
-#deps :=	$(patsubst %.o,%.d,$(OBJS))
-#-include $(deps)
-#DEPFLAGS = -MMD -MF $(@:.o=.d)
-
 all:		$(NAME2) $(NAME1)
 
-$(NAME1):	$(OBJS1) $(HEADER1) $(LIBFT)
-			@make -s -C $(LIBFT)
-			@ $(CC) $(CFLAGS) $(LIB_FLAGS) $(OBJS1) -o $(NAME1)
+$(NAME1):	$(OBJS1) $(HEADER1) $(LIBFT) $(SRCS1)
+			make -s -C $(LIBFT)
+			$(CC) $(CFLAGS) $(LIB_FLAGS) $(OBJS1) -o $(NAME1)
 
-$(NAME2):	$(OBJS2) $(HEADER2) $(LIBFT)
-			@make -s -C $(LIBFT)
-			@ $(CC) $(CFLAGS) $(LIB_FLAGS) $(OBJS2) -o $(NAME2)
-
-#%.o:	%.c
-#	$(CC) $(CFLAGS) -c $< $(DEPFLAGS)
+$(NAME2):	$(OBJS2) $(HEADER2) $(LIBFT) $(SRCS2)
+			make -s -C $(LIBFT)
+			$(CC) $(CFLAGS) $(LIB_FLAGS) $(OBJS2) -o $(NAME2)
 
 clean:
 			@ $(RM) $(OBJS2) $(OBJS1) $(deps)

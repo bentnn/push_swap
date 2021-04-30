@@ -118,6 +118,5 @@ int	main(int argc, char **argv)
 	work_with_commands(data);
 	check_result(data);
 	delete_data(data);
-	sleep(8);
 	return (0);
 }
