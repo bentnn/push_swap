@@ -106,50 +106,50 @@ CMakeFiles/ps.dir/libft/ft_tolower.c.o: ../libft/ft_tolower.c
 
 CMakeFiles/ps.dir/libft/ft_toupper.c.o: ../libft/ft_toupper.c
 
-CMakeFiles/ps.dir/push_swap/count_ways.c.o: ../libft/libft.h
-CMakeFiles/ps.dir/push_swap/count_ways.c.o: ../push_swap/count_ways.c
-CMakeFiles/ps.dir/push_swap/count_ways.c.o: ../push_swap/push_swap.h
+CMakeFiles/ps.dir/push_swap_files/count_ways.c.o: ../libft/libft.h
+CMakeFiles/ps.dir/push_swap_files/count_ways.c.o: ../push_swap_files/count_ways.c
+CMakeFiles/ps.dir/push_swap_files/count_ways.c.o: ../push_swap_files/push_swap.h
 
-CMakeFiles/ps.dir/push_swap/data_func.c.o: ../libft/libft.h
-CMakeFiles/ps.dir/push_swap/data_func.c.o: ../push_swap/data_func.c
-CMakeFiles/ps.dir/push_swap/data_func.c.o: ../push_swap/push_swap.h
+CMakeFiles/ps.dir/push_swap_files/data_func.c.o: ../libft/libft.h
+CMakeFiles/ps.dir/push_swap_files/data_func.c.o: ../push_swap_files/data_func.c
+CMakeFiles/ps.dir/push_swap_files/data_func.c.o: ../push_swap_files/push_swap.h
 
-CMakeFiles/ps.dir/push_swap/doing_moves.c.o: ../libft/libft.h
-CMakeFiles/ps.dir/push_swap/doing_moves.c.o: ../push_swap/doing_moves.c
-CMakeFiles/ps.dir/push_swap/doing_moves.c.o: ../push_swap/push_swap.h
-CMakeFiles/ps.dir/push_swap/doing_moves.c.o: ../push_swap/swap_commands_ps.h
+CMakeFiles/ps.dir/push_swap_files/doing_moves.c.o: ../libft/libft.h
+CMakeFiles/ps.dir/push_swap_files/doing_moves.c.o: ../push_swap_files/doing_moves.c
+CMakeFiles/ps.dir/push_swap_files/doing_moves.c.o: ../push_swap_files/push_swap.h
+CMakeFiles/ps.dir/push_swap_files/doing_moves.c.o: ../push_swap_files/swap_commands_ps.h
 
-CMakeFiles/ps.dir/push_swap/main.c.o: ../libft/libft.h
-CMakeFiles/ps.dir/push_swap/main.c.o: ../push_swap/main.c
-CMakeFiles/ps.dir/push_swap/main.c.o: ../push_swap/push_swap.h
+CMakeFiles/ps.dir/push_swap_files/main.c.o: ../libft/libft.h
+CMakeFiles/ps.dir/push_swap_files/main.c.o: ../push_swap_files/main.c
+CMakeFiles/ps.dir/push_swap_files/main.c.o: ../push_swap_files/push_swap.h
 
-CMakeFiles/ps.dir/push_swap/min_way_and_sort_three.c.o: ../libft/libft.h
-CMakeFiles/ps.dir/push_swap/min_way_and_sort_three.c.o: ../push_swap/min_way_and_sort_three.c
-CMakeFiles/ps.dir/push_swap/min_way_and_sort_three.c.o: ../push_swap/push_swap.h
-CMakeFiles/ps.dir/push_swap/min_way_and_sort_three.c.o: ../push_swap/swap_commands_ps.h
+CMakeFiles/ps.dir/push_swap_files/min_way_and_sort_three.c.o: ../libft/libft.h
+CMakeFiles/ps.dir/push_swap_files/min_way_and_sort_three.c.o: ../push_swap_files/min_way_and_sort_three.c
+CMakeFiles/ps.dir/push_swap_files/min_way_and_sort_three.c.o: ../push_swap_files/push_swap.h
+CMakeFiles/ps.dir/push_swap_files/min_way_and_sort_three.c.o: ../push_swap_files/swap_commands_ps.h
 
-CMakeFiles/ps.dir/push_swap/push_commands_ps.c.o: ../libft/libft.h
-CMakeFiles/ps.dir/push_swap/push_commands_ps.c.o: ../push_swap/push_commands_ps.c
-CMakeFiles/ps.dir/push_swap/push_commands_ps.c.o: ../push_swap/push_swap.h
-CMakeFiles/ps.dir/push_swap/push_commands_ps.c.o: ../push_swap/swap_commands_ps.h
+CMakeFiles/ps.dir/push_swap_files/push_commands_ps.c.o: ../libft/libft.h
+CMakeFiles/ps.dir/push_swap_files/push_commands_ps.c.o: ../push_swap_files/push_commands_ps.c
+CMakeFiles/ps.dir/push_swap_files/push_commands_ps.c.o: ../push_swap_files/push_swap.h
+CMakeFiles/ps.dir/push_swap_files/push_commands_ps.c.o: ../push_swap_files/swap_commands_ps.h
 
-CMakeFiles/ps.dir/push_swap/push_swap.c.o: ../libft/libft.h
-CMakeFiles/ps.dir/push_swap/push_swap.c.o: ../push_swap/push_swap.c
-CMakeFiles/ps.dir/push_swap/push_swap.c.o: ../push_swap/push_swap.h
-CMakeFiles/ps.dir/push_swap/push_swap.c.o: ../push_swap/swap_commands_ps.h
+CMakeFiles/ps.dir/push_swap_files/push_swap.c.o: ../libft/libft.h
+CMakeFiles/ps.dir/push_swap_files/push_swap.c.o: ../push_swap_files/push_swap.c
+CMakeFiles/ps.dir/push_swap_files/push_swap.c.o: ../push_swap_files/push_swap.h
+CMakeFiles/ps.dir/push_swap_files/push_swap.c.o: ../push_swap_files/swap_commands_ps.h
 
-CMakeFiles/ps.dir/push_swap/reverse_rotate_commands_ps.c.o: ../libft/libft.h
-CMakeFiles/ps.dir/push_swap/reverse_rotate_commands_ps.c.o: ../push_swap/push_swap.h
-CMakeFiles/ps.dir/push_swap/reverse_rotate_commands_ps.c.o: ../push_swap/reverse_rotate_commands_ps.c
-CMakeFiles/ps.dir/push_swap/reverse_rotate_commands_ps.c.o: ../push_swap/swap_commands_ps.h
+CMakeFiles/ps.dir/push_swap_files/reverse_rotate_commands_ps.c.o: ../libft/libft.h
+CMakeFiles/ps.dir/push_swap_files/reverse_rotate_commands_ps.c.o: ../push_swap_files/push_swap.h
+CMakeFiles/ps.dir/push_swap_files/reverse_rotate_commands_ps.c.o: ../push_swap_files/reverse_rotate_commands_ps.c
+CMakeFiles/ps.dir/push_swap_files/reverse_rotate_commands_ps.c.o: ../push_swap_files/swap_commands_ps.h
 
-CMakeFiles/ps.dir/push_swap/rotate_commands_ps.c.o: ../libft/libft.h
-CMakeFiles/ps.dir/push_swap/rotate_commands_ps.c.o: ../push_swap/push_swap.h
-CMakeFiles/ps.dir/push_swap/rotate_commands_ps.c.o: ../push_swap/rotate_commands_ps.c
-CMakeFiles/ps.dir/push_swap/rotate_commands_ps.c.o: ../push_swap/swap_commands_ps.h
+CMakeFiles/ps.dir/push_swap_files/rotate_commands_ps.c.o: ../libft/libft.h
+CMakeFiles/ps.dir/push_swap_files/rotate_commands_ps.c.o: ../push_swap_files/push_swap.h
+CMakeFiles/ps.dir/push_swap_files/rotate_commands_ps.c.o: ../push_swap_files/rotate_commands_ps.c
+CMakeFiles/ps.dir/push_swap_files/rotate_commands_ps.c.o: ../push_swap_files/swap_commands_ps.h
 
-CMakeFiles/ps.dir/push_swap/swap_commands_ps.c.o: ../libft/libft.h
-CMakeFiles/ps.dir/push_swap/swap_commands_ps.c.o: ../push_swap/push_swap.h
-CMakeFiles/ps.dir/push_swap/swap_commands_ps.c.o: ../push_swap/swap_commands_ps.c
-CMakeFiles/ps.dir/push_swap/swap_commands_ps.c.o: ../push_swap/swap_commands_ps.h
+CMakeFiles/ps.dir/push_swap_files/swap_commands_ps.c.o: ../libft/libft.h
+CMakeFiles/ps.dir/push_swap_files/swap_commands_ps.c.o: ../push_swap_files/push_swap.h
+CMakeFiles/ps.dir/push_swap_files/swap_commands_ps.c.o: ../push_swap_files/swap_commands_ps.c
+CMakeFiles/ps.dir/push_swap_files/swap_commands_ps.c.o: ../push_swap_files/swap_commands_ps.h
 

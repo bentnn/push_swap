@@ -76,31 +76,31 @@ include CMakeFiles/push_swap.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/push_swap.dir/flags.make
 
-CMakeFiles/push_swap.dir/checker/main.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/checker/main.c.o: ../checker/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/push_swap.dir/checker/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker/main.c.o -c /Users/aabet/projects/push_swap/push_swap/checker/main.c
+CMakeFiles/push_swap.dir/checker_files/main.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/checker_files/main.c.o: ../checker_files/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/push_swap.dir/checker_files/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker_files/main.c.o -c /Users/aabet/projects/push_swap/push_swap/checker_files/main.c
 
-CMakeFiles/push_swap.dir/checker/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker/main.c > CMakeFiles/push_swap.dir/checker/main.c.i
+CMakeFiles/push_swap.dir/checker_files/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker_files/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker_files/main.c > CMakeFiles/push_swap.dir/checker_files/main.c.i
 
-CMakeFiles/push_swap.dir/checker/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker/main.c -o CMakeFiles/push_swap.dir/checker/main.c.s
+CMakeFiles/push_swap.dir/checker_files/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker_files/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker_files/main.c -o CMakeFiles/push_swap.dir/checker_files/main.c.s
 
-CMakeFiles/push_swap.dir/checker/data_func.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/checker/data_func.c.o: ../checker/data_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/push_swap.dir/checker/data_func.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker/data_func.c.o -c /Users/aabet/projects/push_swap/push_swap/checker/data_func.c
+CMakeFiles/push_swap.dir/checker_files/data_func.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/checker_files/data_func.c.o: ../checker_files/data_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/push_swap.dir/checker_files/data_func.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker_files/data_func.c.o -c /Users/aabet/projects/push_swap/push_swap/checker_files/data_func.c
 
-CMakeFiles/push_swap.dir/checker/data_func.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker/data_func.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker/data_func.c > CMakeFiles/push_swap.dir/checker/data_func.c.i
+CMakeFiles/push_swap.dir/checker_files/data_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker_files/data_func.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker_files/data_func.c > CMakeFiles/push_swap.dir/checker_files/data_func.c.i
 
-CMakeFiles/push_swap.dir/checker/data_func.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker/data_func.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker/data_func.c -o CMakeFiles/push_swap.dir/checker/data_func.c.s
+CMakeFiles/push_swap.dir/checker_files/data_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker_files/data_func.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker_files/data_func.c -o CMakeFiles/push_swap.dir/checker_files/data_func.c.s
 
 CMakeFiles/push_swap.dir/gnl/get_next_line.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/gnl/get_next_line.c.o: ../gnl/get_next_line.c
@@ -609,44 +609,44 @@ CMakeFiles/push_swap.dir/libft/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/ft_putstr.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/libft/ft_putstr.c -o CMakeFiles/push_swap.dir/libft/ft_putstr.c.s
 
-CMakeFiles/push_swap.dir/checker/work_with_commands.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/checker/work_with_commands.c.o: ../checker/work_with_commands.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/push_swap.dir/checker/work_with_commands.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker/work_with_commands.c.o -c /Users/aabet/projects/push_swap/push_swap/checker/work_with_commands.c
+CMakeFiles/push_swap.dir/checker_files/work_with_commands.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/checker_files/work_with_commands.c.o: ../checker_files/work_with_commands.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/push_swap.dir/checker_files/work_with_commands.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker_files/work_with_commands.c.o -c /Users/aabet/projects/push_swap/push_swap/checker_files/work_with_commands.c
 
-CMakeFiles/push_swap.dir/checker/work_with_commands.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker/work_with_commands.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker/work_with_commands.c > CMakeFiles/push_swap.dir/checker/work_with_commands.c.i
+CMakeFiles/push_swap.dir/checker_files/work_with_commands.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker_files/work_with_commands.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker_files/work_with_commands.c > CMakeFiles/push_swap.dir/checker_files/work_with_commands.c.i
 
-CMakeFiles/push_swap.dir/checker/work_with_commands.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker/work_with_commands.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker/work_with_commands.c -o CMakeFiles/push_swap.dir/checker/work_with_commands.c.s
+CMakeFiles/push_swap.dir/checker_files/work_with_commands.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker_files/work_with_commands.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker_files/work_with_commands.c -o CMakeFiles/push_swap.dir/checker_files/work_with_commands.c.s
 
-CMakeFiles/push_swap.dir/checker/swap_commands.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/checker/swap_commands.c.o: ../checker/swap_commands.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/push_swap.dir/checker/swap_commands.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker/swap_commands.c.o -c /Users/aabet/projects/push_swap/push_swap/checker/swap_commands.c
+CMakeFiles/push_swap.dir/checker_files/swap_commands.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/checker_files/swap_commands.c.o: ../checker_files/swap_commands.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/push_swap.dir/checker_files/swap_commands.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker_files/swap_commands.c.o -c /Users/aabet/projects/push_swap/push_swap/checker_files/swap_commands.c
 
-CMakeFiles/push_swap.dir/checker/swap_commands.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker/swap_commands.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker/swap_commands.c > CMakeFiles/push_swap.dir/checker/swap_commands.c.i
+CMakeFiles/push_swap.dir/checker_files/swap_commands.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker_files/swap_commands.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker_files/swap_commands.c > CMakeFiles/push_swap.dir/checker_files/swap_commands.c.i
 
-CMakeFiles/push_swap.dir/checker/swap_commands.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker/swap_commands.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker/swap_commands.c -o CMakeFiles/push_swap.dir/checker/swap_commands.c.s
+CMakeFiles/push_swap.dir/checker_files/swap_commands.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker_files/swap_commands.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker_files/swap_commands.c -o CMakeFiles/push_swap.dir/checker_files/swap_commands.c.s
 
-CMakeFiles/push_swap.dir/checker/output_stacks.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/checker/output_stacks.c.o: ../checker/output_stacks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/push_swap.dir/checker/output_stacks.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker/output_stacks.c.o -c /Users/aabet/projects/push_swap/push_swap/checker/output_stacks.c
+CMakeFiles/push_swap.dir/checker_files/output_stacks.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/checker_files/output_stacks.c.o: ../checker_files/output_stacks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/push_swap.dir/checker_files/output_stacks.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker_files/output_stacks.c.o -c /Users/aabet/projects/push_swap/push_swap/checker_files/output_stacks.c
 
-CMakeFiles/push_swap.dir/checker/output_stacks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker/output_stacks.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker/output_stacks.c > CMakeFiles/push_swap.dir/checker/output_stacks.c.i
+CMakeFiles/push_swap.dir/checker_files/output_stacks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker_files/output_stacks.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker_files/output_stacks.c > CMakeFiles/push_swap.dir/checker_files/output_stacks.c.i
 
-CMakeFiles/push_swap.dir/checker/output_stacks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker/output_stacks.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker/output_stacks.c -o CMakeFiles/push_swap.dir/checker/output_stacks.c.s
+CMakeFiles/push_swap.dir/checker_files/output_stacks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker_files/output_stacks.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker_files/output_stacks.c -o CMakeFiles/push_swap.dir/checker_files/output_stacks.c.s
 
 CMakeFiles/push_swap.dir/libft/ft_max.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_max.c.o: ../libft/ft_max.c
@@ -661,57 +661,57 @@ CMakeFiles/push_swap.dir/libft/ft_max.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/ft_max.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/libft/ft_max.c -o CMakeFiles/push_swap.dir/libft/ft_max.c.s
 
-CMakeFiles/push_swap.dir/checker/find_command.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/checker/find_command.c.o: ../checker/find_command.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/push_swap.dir/checker/find_command.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker/find_command.c.o -c /Users/aabet/projects/push_swap/push_swap/checker/find_command.c
+CMakeFiles/push_swap.dir/checker_files/find_command.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/checker_files/find_command.c.o: ../checker_files/find_command.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/push_swap.dir/checker_files/find_command.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker_files/find_command.c.o -c /Users/aabet/projects/push_swap/push_swap/checker_files/find_command.c
 
-CMakeFiles/push_swap.dir/checker/find_command.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker/find_command.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker/find_command.c > CMakeFiles/push_swap.dir/checker/find_command.c.i
+CMakeFiles/push_swap.dir/checker_files/find_command.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker_files/find_command.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker_files/find_command.c > CMakeFiles/push_swap.dir/checker_files/find_command.c.i
 
-CMakeFiles/push_swap.dir/checker/find_command.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker/find_command.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker/find_command.c -o CMakeFiles/push_swap.dir/checker/find_command.c.s
+CMakeFiles/push_swap.dir/checker_files/find_command.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker_files/find_command.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker_files/find_command.c -o CMakeFiles/push_swap.dir/checker_files/find_command.c.s
 
-CMakeFiles/push_swap.dir/checker/push_commands_checker.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/checker/push_commands_checker.c.o: ../checker/push_commands_checker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/push_swap.dir/checker/push_commands_checker.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker/push_commands_checker.c.o -c /Users/aabet/projects/push_swap/push_swap/checker/push_commands_checker.c
+CMakeFiles/push_swap.dir/checker_files/push_commands_checker.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/checker_files/push_commands_checker.c.o: ../checker_files/push_commands_checker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/push_swap.dir/checker_files/push_commands_checker.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker_files/push_commands_checker.c.o -c /Users/aabet/projects/push_swap/push_swap/checker_files/push_commands_checker.c
 
-CMakeFiles/push_swap.dir/checker/push_commands_checker.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker/push_commands_checker.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker/push_commands_checker.c > CMakeFiles/push_swap.dir/checker/push_commands_checker.c.i
+CMakeFiles/push_swap.dir/checker_files/push_commands_checker.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker_files/push_commands_checker.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker_files/push_commands_checker.c > CMakeFiles/push_swap.dir/checker_files/push_commands_checker.c.i
 
-CMakeFiles/push_swap.dir/checker/push_commands_checker.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker/push_commands_checker.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker/push_commands_checker.c -o CMakeFiles/push_swap.dir/checker/push_commands_checker.c.s
+CMakeFiles/push_swap.dir/checker_files/push_commands_checker.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker_files/push_commands_checker.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker_files/push_commands_checker.c -o CMakeFiles/push_swap.dir/checker_files/push_commands_checker.c.s
 
-CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.o: ../checker/reverse_rotate_commands_checker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.o -c /Users/aabet/projects/push_swap/push_swap/checker/reverse_rotate_commands_checker.c
+CMakeFiles/push_swap.dir/checker_files/reverse_rotate_commands_checker.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/checker_files/reverse_rotate_commands_checker.c.o: ../checker_files/reverse_rotate_commands_checker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/push_swap.dir/checker_files/reverse_rotate_commands_checker.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker_files/reverse_rotate_commands_checker.c.o -c /Users/aabet/projects/push_swap/push_swap/checker_files/reverse_rotate_commands_checker.c
 
-CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker/reverse_rotate_commands_checker.c > CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.i
+CMakeFiles/push_swap.dir/checker_files/reverse_rotate_commands_checker.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker_files/reverse_rotate_commands_checker.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker_files/reverse_rotate_commands_checker.c > CMakeFiles/push_swap.dir/checker_files/reverse_rotate_commands_checker.c.i
 
-CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker/reverse_rotate_commands_checker.c -o CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.s
+CMakeFiles/push_swap.dir/checker_files/reverse_rotate_commands_checker.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker_files/reverse_rotate_commands_checker.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker_files/reverse_rotate_commands_checker.c -o CMakeFiles/push_swap.dir/checker_files/reverse_rotate_commands_checker.c.s
 
-CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.o: ../checker/rotate_commands_checker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.o -c /Users/aabet/projects/push_swap/push_swap/checker/rotate_commands_checker.c
+CMakeFiles/push_swap.dir/checker_files/rotate_commands_checker.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/checker_files/rotate_commands_checker.c.o: ../checker_files/rotate_commands_checker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/push_swap/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/push_swap.dir/checker_files/rotate_commands_checker.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker_files/rotate_commands_checker.c.o -c /Users/aabet/projects/push_swap/push_swap/checker_files/rotate_commands_checker.c
 
-CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker/rotate_commands_checker.c > CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.i
+CMakeFiles/push_swap.dir/checker_files/rotate_commands_checker.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker_files/rotate_commands_checker.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/push_swap/push_swap/checker_files/rotate_commands_checker.c > CMakeFiles/push_swap.dir/checker_files/rotate_commands_checker.c.i
 
-CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker/rotate_commands_checker.c -o CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.s
+CMakeFiles/push_swap.dir/checker_files/rotate_commands_checker.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker_files/rotate_commands_checker.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/push_swap/push_swap/checker_files/rotate_commands_checker.c -o CMakeFiles/push_swap.dir/checker_files/rotate_commands_checker.c.s
 
 CMakeFiles/push_swap.dir/gnl/gnl_update.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/gnl/gnl_update.c.o: ../gnl/gnl_update.c
@@ -728,8 +728,8 @@ CMakeFiles/push_swap.dir/gnl/gnl_update.c.s: cmake_force
 
 # Object files for target push_swap
 push_swap_OBJECTS = \
-"CMakeFiles/push_swap.dir/checker/main.c.o" \
-"CMakeFiles/push_swap.dir/checker/data_func.c.o" \
+"CMakeFiles/push_swap.dir/checker_files/main.c.o" \
+"CMakeFiles/push_swap.dir/checker_files/data_func.c.o" \
 "CMakeFiles/push_swap.dir/gnl/get_next_line.c.o" \
 "CMakeFiles/push_swap.dir/gnl/get_next_line_utils.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_min.c.o" \
@@ -769,21 +769,21 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/libft/ft_split.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_putchar.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_putstr.c.o" \
-"CMakeFiles/push_swap.dir/checker/work_with_commands.c.o" \
-"CMakeFiles/push_swap.dir/checker/swap_commands.c.o" \
-"CMakeFiles/push_swap.dir/checker/output_stacks.c.o" \
+"CMakeFiles/push_swap.dir/checker_files/work_with_commands.c.o" \
+"CMakeFiles/push_swap.dir/checker_files/swap_commands.c.o" \
+"CMakeFiles/push_swap.dir/checker_files/output_stacks.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_max.c.o" \
-"CMakeFiles/push_swap.dir/checker/find_command.c.o" \
-"CMakeFiles/push_swap.dir/checker/push_commands_checker.c.o" \
-"CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.o" \
-"CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.o" \
+"CMakeFiles/push_swap.dir/checker_files/find_command.c.o" \
+"CMakeFiles/push_swap.dir/checker_files/push_commands_checker.c.o" \
+"CMakeFiles/push_swap.dir/checker_files/reverse_rotate_commands_checker.c.o" \
+"CMakeFiles/push_swap.dir/checker_files/rotate_commands_checker.c.o" \
 "CMakeFiles/push_swap.dir/gnl/gnl_update.c.o"
 
 # External object files for target push_swap
 push_swap_EXTERNAL_OBJECTS =
 
-push_swap: CMakeFiles/push_swap.dir/checker/main.c.o
-push_swap: CMakeFiles/push_swap.dir/checker/data_func.c.o
+push_swap: CMakeFiles/push_swap.dir/checker_files/main.c.o
+push_swap: CMakeFiles/push_swap.dir/checker_files/data_func.c.o
 push_swap: CMakeFiles/push_swap.dir/gnl/get_next_line.c.o
 push_swap: CMakeFiles/push_swap.dir/gnl/get_next_line_utils.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_min.c.o
@@ -823,14 +823,14 @@ push_swap: CMakeFiles/push_swap.dir/libft/ft_strmapi.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_split.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_putchar.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_putstr.c.o
-push_swap: CMakeFiles/push_swap.dir/checker/work_with_commands.c.o
-push_swap: CMakeFiles/push_swap.dir/checker/swap_commands.c.o
-push_swap: CMakeFiles/push_swap.dir/checker/output_stacks.c.o
+push_swap: CMakeFiles/push_swap.dir/checker_files/work_with_commands.c.o
+push_swap: CMakeFiles/push_swap.dir/checker_files/swap_commands.c.o
+push_swap: CMakeFiles/push_swap.dir/checker_files/output_stacks.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_max.c.o
-push_swap: CMakeFiles/push_swap.dir/checker/find_command.c.o
-push_swap: CMakeFiles/push_swap.dir/checker/push_commands_checker.c.o
-push_swap: CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.o
-push_swap: CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.o
+push_swap: CMakeFiles/push_swap.dir/checker_files/find_command.c.o
+push_swap: CMakeFiles/push_swap.dir/checker_files/push_commands_checker.c.o
+push_swap: CMakeFiles/push_swap.dir/checker_files/reverse_rotate_commands_checker.c.o
+push_swap: CMakeFiles/push_swap.dir/checker_files/rotate_commands_checker.c.o
 push_swap: CMakeFiles/push_swap.dir/gnl/gnl_update.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt

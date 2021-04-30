@@ -68,11 +68,11 @@ OBJS	= 	$(SRCS:.c=.o)
 CFLAGS	= 	-Wall -Wextra -Werror
 
 .c.o:
-			gcc $(CFLAGS) -c $< -o $(<:.c=.o)
+			@gcc $(CFLAGS) -c $< -o $(<:.c=.o)
 
 $(NAME):	$(OBJS)
-			ar rc $(NAME) $(OBJS)
-			ranlib $(NAME)
+			@ar rc $(NAME) $(OBJS)
+			@ranlib $(NAME)
 
 all:		$(NAME)
 
@@ -80,10 +80,10 @@ bonus:		$(OBJS) $(OBJS_B)
 			@ ar rc $(NAME) $(OBJS) $(OBJS_B)
 
 clean:
-			rm -rf $(OBJS) $(OBJS_B)
+			@rm -rf $(OBJS) $(OBJS_B)
 
 fclean:		clean
-			rm -rf  $(NAME)
+			@rm -rf  $(NAME)
 
 re:			fclean all
 

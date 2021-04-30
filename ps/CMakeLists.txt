@@ -4,16 +4,16 @@ project(ps C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(
-        ps push_swap/main.c
-        push_swap/doing_moves.c
-        push_swap/push_commands_ps.c
-        push_swap/push_swap.c
-        push_swap/push_swap.h
-        push_swap/reverse_rotate_commands_ps.c
-        push_swap/rotate_commands_ps.c
-        push_swap/swap_commands_ps.h
-        push_swap/swap_commands_ps.c
-        push_swap/data_func.c
+        ps push_swap_files/main.c
+        push_swap_files/doing_moves.c
+        push_swap_files/push_commands_ps.c
+        push_swap_files/push_swap.c
+        push_swap_files/push_swap.h
+        push_swap_files/reverse_rotate_commands_ps.c
+        push_swap_files/rotate_commands_ps.c
+        push_swap_files/swap_commands_ps.h
+        push_swap_files/swap_commands_ps.c
+        push_swap_files/data_func.c
 
         libft/ft_max.c
         libft/ft_min.c
@@ -53,4 +53,4 @@ add_executable(
         libft/ft_split.c
         libft/ft_putchar.c
         libft/ft_putstr.c
-        push_swap/count_ways.c push_swap/min_way_and_sort_three.c)
+        push_swap_files/count_ways.c push_swap_files/min_way_and_sort_three.c)

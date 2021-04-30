@@ -67,10 +67,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/aabet/projects/push_swap/ps
+CMAKE_SOURCE_DIR = /Users/aabet/projects/push_swap/push_swap/ps
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aabet/projects/push_swap/ps/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/aabet/projects/push_swap/push_swap/ps/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aabet/projects/push_swap/ps/cmake-build-debug/CMakeFiles /Users/aabet/projects/push_swap/ps/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aabet/projects/push_swap/push_swap/ps/cmake-build-debug/CMakeFiles /Users/aabet/projects/push_swap/push_swap/ps/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aabet/projects/push_swap/ps/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aabet/projects/push_swap/push_swap/ps/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1168,275 +1168,275 @@ libft/ft_toupper.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/libft/ft_toupper.c.s
 .PHONY : libft/ft_toupper.c.s
 
-push_swap/count_ways.o: push_swap/count_ways.c.o
+push_swap_files/count_ways.o: push_swap_files/count_ways.c.o
 
-.PHONY : push_swap/count_ways.o
-
-# target to build an object file
-push_swap/count_ways.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/count_ways.c.o
-.PHONY : push_swap/count_ways.c.o
-
-push_swap/count_ways.i: push_swap/count_ways.c.i
-
-.PHONY : push_swap/count_ways.i
-
-# target to preprocess a source file
-push_swap/count_ways.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/count_ways.c.i
-.PHONY : push_swap/count_ways.c.i
-
-push_swap/count_ways.s: push_swap/count_ways.c.s
-
-.PHONY : push_swap/count_ways.s
-
-# target to generate assembly for a file
-push_swap/count_ways.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/count_ways.c.s
-.PHONY : push_swap/count_ways.c.s
-
-push_swap/data_func.o: push_swap/data_func.c.o
-
-.PHONY : push_swap/data_func.o
+.PHONY : push_swap_files/count_ways.o
 
 # target to build an object file
-push_swap/data_func.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/data_func.c.o
-.PHONY : push_swap/data_func.c.o
+push_swap_files/count_ways.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/count_ways.c.o
+.PHONY : push_swap_files/count_ways.c.o
 
-push_swap/data_func.i: push_swap/data_func.c.i
+push_swap_files/count_ways.i: push_swap_files/count_ways.c.i
 
-.PHONY : push_swap/data_func.i
+.PHONY : push_swap_files/count_ways.i
 
 # target to preprocess a source file
-push_swap/data_func.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/data_func.c.i
-.PHONY : push_swap/data_func.c.i
+push_swap_files/count_ways.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/count_ways.c.i
+.PHONY : push_swap_files/count_ways.c.i
 
-push_swap/data_func.s: push_swap/data_func.c.s
+push_swap_files/count_ways.s: push_swap_files/count_ways.c.s
 
-.PHONY : push_swap/data_func.s
+.PHONY : push_swap_files/count_ways.s
 
 # target to generate assembly for a file
-push_swap/data_func.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/data_func.c.s
-.PHONY : push_swap/data_func.c.s
+push_swap_files/count_ways.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/count_ways.c.s
+.PHONY : push_swap_files/count_ways.c.s
 
-push_swap/doing_moves.o: push_swap/doing_moves.c.o
+push_swap_files/data_func.o: push_swap_files/data_func.c.o
 
-.PHONY : push_swap/doing_moves.o
+.PHONY : push_swap_files/data_func.o
 
 # target to build an object file
-push_swap/doing_moves.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/doing_moves.c.o
-.PHONY : push_swap/doing_moves.c.o
+push_swap_files/data_func.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/data_func.c.o
+.PHONY : push_swap_files/data_func.c.o
 
-push_swap/doing_moves.i: push_swap/doing_moves.c.i
+push_swap_files/data_func.i: push_swap_files/data_func.c.i
 
-.PHONY : push_swap/doing_moves.i
+.PHONY : push_swap_files/data_func.i
 
 # target to preprocess a source file
-push_swap/doing_moves.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/doing_moves.c.i
-.PHONY : push_swap/doing_moves.c.i
+push_swap_files/data_func.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/data_func.c.i
+.PHONY : push_swap_files/data_func.c.i
 
-push_swap/doing_moves.s: push_swap/doing_moves.c.s
+push_swap_files/data_func.s: push_swap_files/data_func.c.s
 
-.PHONY : push_swap/doing_moves.s
+.PHONY : push_swap_files/data_func.s
 
 # target to generate assembly for a file
-push_swap/doing_moves.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/doing_moves.c.s
-.PHONY : push_swap/doing_moves.c.s
+push_swap_files/data_func.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/data_func.c.s
+.PHONY : push_swap_files/data_func.c.s
 
-push_swap/main.o: push_swap/main.c.o
+push_swap_files/doing_moves.o: push_swap_files/doing_moves.c.o
 
-.PHONY : push_swap/main.o
+.PHONY : push_swap_files/doing_moves.o
 
 # target to build an object file
-push_swap/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/main.c.o
-.PHONY : push_swap/main.c.o
+push_swap_files/doing_moves.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/doing_moves.c.o
+.PHONY : push_swap_files/doing_moves.c.o
 
-push_swap/main.i: push_swap/main.c.i
+push_swap_files/doing_moves.i: push_swap_files/doing_moves.c.i
 
-.PHONY : push_swap/main.i
+.PHONY : push_swap_files/doing_moves.i
 
 # target to preprocess a source file
-push_swap/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/main.c.i
-.PHONY : push_swap/main.c.i
+push_swap_files/doing_moves.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/doing_moves.c.i
+.PHONY : push_swap_files/doing_moves.c.i
 
-push_swap/main.s: push_swap/main.c.s
+push_swap_files/doing_moves.s: push_swap_files/doing_moves.c.s
 
-.PHONY : push_swap/main.s
+.PHONY : push_swap_files/doing_moves.s
 
 # target to generate assembly for a file
-push_swap/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/main.c.s
-.PHONY : push_swap/main.c.s
+push_swap_files/doing_moves.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/doing_moves.c.s
+.PHONY : push_swap_files/doing_moves.c.s
 
-push_swap/min_way_and_sort_three.o: push_swap/min_way_and_sort_three.c.o
+push_swap_files/main.o: push_swap_files/main.c.o
 
-.PHONY : push_swap/min_way_and_sort_three.o
+.PHONY : push_swap_files/main.o
 
 # target to build an object file
-push_swap/min_way_and_sort_three.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/min_way_and_sort_three.c.o
-.PHONY : push_swap/min_way_and_sort_three.c.o
+push_swap_files/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/main.c.o
+.PHONY : push_swap_files/main.c.o
 
-push_swap/min_way_and_sort_three.i: push_swap/min_way_and_sort_three.c.i
+push_swap_files/main.i: push_swap_files/main.c.i
 
-.PHONY : push_swap/min_way_and_sort_three.i
+.PHONY : push_swap_files/main.i
 
 # target to preprocess a source file
-push_swap/min_way_and_sort_three.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/min_way_and_sort_three.c.i
-.PHONY : push_swap/min_way_and_sort_three.c.i
+push_swap_files/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/main.c.i
+.PHONY : push_swap_files/main.c.i
 
-push_swap/min_way_and_sort_three.s: push_swap/min_way_and_sort_three.c.s
+push_swap_files/main.s: push_swap_files/main.c.s
 
-.PHONY : push_swap/min_way_and_sort_three.s
+.PHONY : push_swap_files/main.s
 
 # target to generate assembly for a file
-push_swap/min_way_and_sort_three.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/min_way_and_sort_three.c.s
-.PHONY : push_swap/min_way_and_sort_three.c.s
+push_swap_files/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/main.c.s
+.PHONY : push_swap_files/main.c.s
 
-push_swap/push_commands_ps.o: push_swap/push_commands_ps.c.o
+push_swap_files/min_way_and_sort_three.o: push_swap_files/min_way_and_sort_three.c.o
 
-.PHONY : push_swap/push_commands_ps.o
+.PHONY : push_swap_files/min_way_and_sort_three.o
 
 # target to build an object file
-push_swap/push_commands_ps.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/push_commands_ps.c.o
-.PHONY : push_swap/push_commands_ps.c.o
+push_swap_files/min_way_and_sort_three.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/min_way_and_sort_three.c.o
+.PHONY : push_swap_files/min_way_and_sort_three.c.o
 
-push_swap/push_commands_ps.i: push_swap/push_commands_ps.c.i
+push_swap_files/min_way_and_sort_three.i: push_swap_files/min_way_and_sort_three.c.i
 
-.PHONY : push_swap/push_commands_ps.i
+.PHONY : push_swap_files/min_way_and_sort_three.i
 
 # target to preprocess a source file
-push_swap/push_commands_ps.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/push_commands_ps.c.i
-.PHONY : push_swap/push_commands_ps.c.i
+push_swap_files/min_way_and_sort_three.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/min_way_and_sort_three.c.i
+.PHONY : push_swap_files/min_way_and_sort_three.c.i
 
-push_swap/push_commands_ps.s: push_swap/push_commands_ps.c.s
+push_swap_files/min_way_and_sort_three.s: push_swap_files/min_way_and_sort_three.c.s
 
-.PHONY : push_swap/push_commands_ps.s
+.PHONY : push_swap_files/min_way_and_sort_three.s
 
 # target to generate assembly for a file
-push_swap/push_commands_ps.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/push_commands_ps.c.s
-.PHONY : push_swap/push_commands_ps.c.s
+push_swap_files/min_way_and_sort_three.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/min_way_and_sort_three.c.s
+.PHONY : push_swap_files/min_way_and_sort_three.c.s
 
-push_swap/push_swap.o: push_swap/push_swap.c.o
+push_swap_files/push_commands_ps.o: push_swap_files/push_commands_ps.c.o
 
-.PHONY : push_swap/push_swap.o
+.PHONY : push_swap_files/push_commands_ps.o
 
 # target to build an object file
-push_swap/push_swap.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/push_swap.c.o
-.PHONY : push_swap/push_swap.c.o
+push_swap_files/push_commands_ps.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/push_commands_ps.c.o
+.PHONY : push_swap_files/push_commands_ps.c.o
 
-push_swap/push_swap.i: push_swap/push_swap.c.i
+push_swap_files/push_commands_ps.i: push_swap_files/push_commands_ps.c.i
 
-.PHONY : push_swap/push_swap.i
+.PHONY : push_swap_files/push_commands_ps.i
 
 # target to preprocess a source file
-push_swap/push_swap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/push_swap.c.i
-.PHONY : push_swap/push_swap.c.i
+push_swap_files/push_commands_ps.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/push_commands_ps.c.i
+.PHONY : push_swap_files/push_commands_ps.c.i
 
-push_swap/push_swap.s: push_swap/push_swap.c.s
+push_swap_files/push_commands_ps.s: push_swap_files/push_commands_ps.c.s
 
-.PHONY : push_swap/push_swap.s
+.PHONY : push_swap_files/push_commands_ps.s
 
 # target to generate assembly for a file
-push_swap/push_swap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/push_swap.c.s
-.PHONY : push_swap/push_swap.c.s
+push_swap_files/push_commands_ps.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/push_commands_ps.c.s
+.PHONY : push_swap_files/push_commands_ps.c.s
 
-push_swap/reverse_rotate_commands_ps.o: push_swap/reverse_rotate_commands_ps.c.o
+push_swap_files/push_swap.o: push_swap_files/push_swap.c.o
 
-.PHONY : push_swap/reverse_rotate_commands_ps.o
+.PHONY : push_swap_files/push_swap.o
 
 # target to build an object file
-push_swap/reverse_rotate_commands_ps.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/reverse_rotate_commands_ps.c.o
-.PHONY : push_swap/reverse_rotate_commands_ps.c.o
+push_swap_files/push_swap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/push_swap.c.o
+.PHONY : push_swap_files/push_swap.c.o
 
-push_swap/reverse_rotate_commands_ps.i: push_swap/reverse_rotate_commands_ps.c.i
+push_swap_files/push_swap.i: push_swap_files/push_swap.c.i
 
-.PHONY : push_swap/reverse_rotate_commands_ps.i
+.PHONY : push_swap_files/push_swap.i
 
 # target to preprocess a source file
-push_swap/reverse_rotate_commands_ps.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/reverse_rotate_commands_ps.c.i
-.PHONY : push_swap/reverse_rotate_commands_ps.c.i
+push_swap_files/push_swap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/push_swap.c.i
+.PHONY : push_swap_files/push_swap.c.i
 
-push_swap/reverse_rotate_commands_ps.s: push_swap/reverse_rotate_commands_ps.c.s
+push_swap_files/push_swap.s: push_swap_files/push_swap.c.s
 
-.PHONY : push_swap/reverse_rotate_commands_ps.s
+.PHONY : push_swap_files/push_swap.s
 
 # target to generate assembly for a file
-push_swap/reverse_rotate_commands_ps.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/reverse_rotate_commands_ps.c.s
-.PHONY : push_swap/reverse_rotate_commands_ps.c.s
+push_swap_files/push_swap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/push_swap.c.s
+.PHONY : push_swap_files/push_swap.c.s
 
-push_swap/rotate_commands_ps.o: push_swap/rotate_commands_ps.c.o
+push_swap_files/reverse_rotate_commands_ps.o: push_swap_files/reverse_rotate_commands_ps.c.o
 
-.PHONY : push_swap/rotate_commands_ps.o
+.PHONY : push_swap_files/reverse_rotate_commands_ps.o
 
 # target to build an object file
-push_swap/rotate_commands_ps.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/rotate_commands_ps.c.o
-.PHONY : push_swap/rotate_commands_ps.c.o
+push_swap_files/reverse_rotate_commands_ps.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/reverse_rotate_commands_ps.c.o
+.PHONY : push_swap_files/reverse_rotate_commands_ps.c.o
 
-push_swap/rotate_commands_ps.i: push_swap/rotate_commands_ps.c.i
+push_swap_files/reverse_rotate_commands_ps.i: push_swap_files/reverse_rotate_commands_ps.c.i
 
-.PHONY : push_swap/rotate_commands_ps.i
+.PHONY : push_swap_files/reverse_rotate_commands_ps.i
 
 # target to preprocess a source file
-push_swap/rotate_commands_ps.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/rotate_commands_ps.c.i
-.PHONY : push_swap/rotate_commands_ps.c.i
+push_swap_files/reverse_rotate_commands_ps.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/reverse_rotate_commands_ps.c.i
+.PHONY : push_swap_files/reverse_rotate_commands_ps.c.i
 
-push_swap/rotate_commands_ps.s: push_swap/rotate_commands_ps.c.s
+push_swap_files/reverse_rotate_commands_ps.s: push_swap_files/reverse_rotate_commands_ps.c.s
 
-.PHONY : push_swap/rotate_commands_ps.s
+.PHONY : push_swap_files/reverse_rotate_commands_ps.s
 
 # target to generate assembly for a file
-push_swap/rotate_commands_ps.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/rotate_commands_ps.c.s
-.PHONY : push_swap/rotate_commands_ps.c.s
+push_swap_files/reverse_rotate_commands_ps.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/reverse_rotate_commands_ps.c.s
+.PHONY : push_swap_files/reverse_rotate_commands_ps.c.s
 
-push_swap/swap_commands_ps.o: push_swap/swap_commands_ps.c.o
+push_swap_files/rotate_commands_ps.o: push_swap_files/rotate_commands_ps.c.o
 
-.PHONY : push_swap/swap_commands_ps.o
+.PHONY : push_swap_files/rotate_commands_ps.o
 
 # target to build an object file
-push_swap/swap_commands_ps.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/swap_commands_ps.c.o
-.PHONY : push_swap/swap_commands_ps.c.o
+push_swap_files/rotate_commands_ps.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/rotate_commands_ps.c.o
+.PHONY : push_swap_files/rotate_commands_ps.c.o
 
-push_swap/swap_commands_ps.i: push_swap/swap_commands_ps.c.i
+push_swap_files/rotate_commands_ps.i: push_swap_files/rotate_commands_ps.c.i
 
-.PHONY : push_swap/swap_commands_ps.i
+.PHONY : push_swap_files/rotate_commands_ps.i
 
 # target to preprocess a source file
-push_swap/swap_commands_ps.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/swap_commands_ps.c.i
-.PHONY : push_swap/swap_commands_ps.c.i
+push_swap_files/rotate_commands_ps.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/rotate_commands_ps.c.i
+.PHONY : push_swap_files/rotate_commands_ps.c.i
 
-push_swap/swap_commands_ps.s: push_swap/swap_commands_ps.c.s
+push_swap_files/rotate_commands_ps.s: push_swap_files/rotate_commands_ps.c.s
 
-.PHONY : push_swap/swap_commands_ps.s
+.PHONY : push_swap_files/rotate_commands_ps.s
 
 # target to generate assembly for a file
-push_swap/swap_commands_ps.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap/swap_commands_ps.c.s
-.PHONY : push_swap/swap_commands_ps.c.s
+push_swap_files/rotate_commands_ps.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/rotate_commands_ps.c.s
+.PHONY : push_swap_files/rotate_commands_ps.c.s
+
+push_swap_files/swap_commands_ps.o: push_swap_files/swap_commands_ps.c.o
+
+.PHONY : push_swap_files/swap_commands_ps.o
+
+# target to build an object file
+push_swap_files/swap_commands_ps.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/swap_commands_ps.c.o
+.PHONY : push_swap_files/swap_commands_ps.c.o
+
+push_swap_files/swap_commands_ps.i: push_swap_files/swap_commands_ps.c.i
+
+.PHONY : push_swap_files/swap_commands_ps.i
+
+# target to preprocess a source file
+push_swap_files/swap_commands_ps.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/swap_commands_ps.c.i
+.PHONY : push_swap_files/swap_commands_ps.c.i
+
+push_swap_files/swap_commands_ps.s: push_swap_files/swap_commands_ps.c.s
+
+.PHONY : push_swap_files/swap_commands_ps.s
+
+# target to generate assembly for a file
+push_swap_files/swap_commands_ps.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/push_swap_files/swap_commands_ps.c.s
+.PHONY : push_swap_files/swap_commands_ps.c.s
 
 # Help Target
 help:
@@ -1561,36 +1561,36 @@ help:
 	@echo "... libft/ft_toupper.o"
 	@echo "... libft/ft_toupper.i"
 	@echo "... libft/ft_toupper.s"
-	@echo "... push_swap/count_ways.o"
-	@echo "... push_swap/count_ways.i"
-	@echo "... push_swap/count_ways.s"
-	@echo "... push_swap/data_func.o"
-	@echo "... push_swap/data_func.i"
-	@echo "... push_swap/data_func.s"
-	@echo "... push_swap/doing_moves.o"
-	@echo "... push_swap/doing_moves.i"
-	@echo "... push_swap/doing_moves.s"
-	@echo "... push_swap/main.o"
-	@echo "... push_swap/main.i"
-	@echo "... push_swap/main.s"
-	@echo "... push_swap/min_way_and_sort_three.o"
-	@echo "... push_swap/min_way_and_sort_three.i"
-	@echo "... push_swap/min_way_and_sort_three.s"
-	@echo "... push_swap/push_commands_ps.o"
-	@echo "... push_swap/push_commands_ps.i"
-	@echo "... push_swap/push_commands_ps.s"
-	@echo "... push_swap/push_swap.o"
-	@echo "... push_swap/push_swap.i"
-	@echo "... push_swap/push_swap.s"
-	@echo "... push_swap/reverse_rotate_commands_ps.o"
-	@echo "... push_swap/reverse_rotate_commands_ps.i"
-	@echo "... push_swap/reverse_rotate_commands_ps.s"
-	@echo "... push_swap/rotate_commands_ps.o"
-	@echo "... push_swap/rotate_commands_ps.i"
-	@echo "... push_swap/rotate_commands_ps.s"
-	@echo "... push_swap/swap_commands_ps.o"
-	@echo "... push_swap/swap_commands_ps.i"
-	@echo "... push_swap/swap_commands_ps.s"
+	@echo "... push_swap_files/count_ways.o"
+	@echo "... push_swap_files/count_ways.i"
+	@echo "... push_swap_files/count_ways.s"
+	@echo "... push_swap_files/data_func.o"
+	@echo "... push_swap_files/data_func.i"
+	@echo "... push_swap_files/data_func.s"
+	@echo "... push_swap_files/doing_moves.o"
+	@echo "... push_swap_files/doing_moves.i"
+	@echo "... push_swap_files/doing_moves.s"
+	@echo "... push_swap_files/main.o"
+	@echo "... push_swap_files/main.i"
+	@echo "... push_swap_files/main.s"
+	@echo "... push_swap_files/min_way_and_sort_three.o"
+	@echo "... push_swap_files/min_way_and_sort_three.i"
+	@echo "... push_swap_files/min_way_and_sort_three.s"
+	@echo "... push_swap_files/push_commands_ps.o"
+	@echo "... push_swap_files/push_commands_ps.i"
+	@echo "... push_swap_files/push_commands_ps.s"
+	@echo "... push_swap_files/push_swap.o"
+	@echo "... push_swap_files/push_swap.i"
+	@echo "... push_swap_files/push_swap.s"
+	@echo "... push_swap_files/reverse_rotate_commands_ps.o"
+	@echo "... push_swap_files/reverse_rotate_commands_ps.i"
+	@echo "... push_swap_files/reverse_rotate_commands_ps.s"
+	@echo "... push_swap_files/rotate_commands_ps.o"
+	@echo "... push_swap_files/rotate_commands_ps.i"
+	@echo "... push_swap_files/rotate_commands_ps.s"
+	@echo "... push_swap_files/swap_commands_ps.o"
+	@echo "... push_swap_files/swap_commands_ps.i"
+	@echo "... push_swap_files/swap_commands_ps.s"
 .PHONY : help
 
 

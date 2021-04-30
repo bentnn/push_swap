@@ -3,7 +3,7 @@ project(push_swap C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(push_swap checker/main.c checker/checker.h checker/data_func.c
+add_executable(push_swap checker_files/main.c checker_files/checker.h checker_files/data_func.c
 
         gnl/get_next_line.h
         gnl/get_next_line.c
@@ -46,7 +46,7 @@ add_executable(push_swap checker/main.c checker/checker.h checker/data_func.c
         libft/ft_strmapi.c
         libft/ft_split.c
         libft/ft_putchar.c
-        libft/ft_putstr.c checker/work_with_commands.c checker/swap_commands.c checker/swap_commands.h
-        checker/output_stacks.c libft/ft_max.c checker/find_command.c checker/push_commands_checker.c checker/reverse_rotate_commands_checker.c
-        checker/rotate_commands_checker.c gnl/gnl_update.c
+        libft/ft_putstr.c checker_files/work_with_commands.c checker_files/swap_commands.c checker_files/swap_commands.h
+        checker_files/output_stacks.c libft/ft_max.c checker_files/find_command.c checker_files/push_commands_checker.c checker_files/reverse_rotate_commands_checker.c
+        checker_files/rotate_commands_checker.c gnl/gnl_update.c
         )

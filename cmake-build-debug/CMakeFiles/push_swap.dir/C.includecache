@@ -6,53 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/aabet/projects/push_swap/push_swap/checker/checker.h
+/Users/aabet/projects/push_swap/push_swap/checker_files/checker.h
 ../libft/libft.h
 /Users/aabet/projects/push_swap/push_swap/libft/libft.h
 ../gnl/get_next_line.h
 /Users/aabet/projects/push_swap/push_swap/gnl/get_next_line.h
 
-/Users/aabet/projects/push_swap/push_swap/checker/data_func.c
+/Users/aabet/projects/push_swap/push_swap/checker_files/main.c
 checker.h
-/Users/aabet/projects/push_swap/push_swap/checker/checker.h
-
-/Users/aabet/projects/push_swap/push_swap/checker/find_command.c
-checker.h
-/Users/aabet/projects/push_swap/push_swap/checker/checker.h
-swap_commands.h
-/Users/aabet/projects/push_swap/push_swap/checker/swap_commands.h
-
-/Users/aabet/projects/push_swap/push_swap/checker/main.c
-checker.h
-/Users/aabet/projects/push_swap/push_swap/checker/checker.h
-
-/Users/aabet/projects/push_swap/push_swap/checker/output_stacks.c
-checker.h
-/Users/aabet/projects/push_swap/push_swap/checker/checker.h
-
-/Users/aabet/projects/push_swap/push_swap/checker/push_commands_checker.c
-swap_commands.h
-/Users/aabet/projects/push_swap/push_swap/checker/swap_commands.h
-
-/Users/aabet/projects/push_swap/push_swap/checker/reverse_rotate_commands_checker.c
-swap_commands.h
-/Users/aabet/projects/push_swap/push_swap/checker/swap_commands.h
-
-/Users/aabet/projects/push_swap/push_swap/checker/rotate_commands_checker.c
-swap_commands.h
-/Users/aabet/projects/push_swap/push_swap/checker/swap_commands.h
-
-/Users/aabet/projects/push_swap/push_swap/checker/swap_commands.c
-swap_commands.h
-/Users/aabet/projects/push_swap/push_swap/checker/swap_commands.h
-
-/Users/aabet/projects/push_swap/push_swap/checker/swap_commands.h
-checker.h
-/Users/aabet/projects/push_swap/push_swap/checker/checker.h
-
-/Users/aabet/projects/push_swap/push_swap/checker/work_with_commands.c
-checker.h
-/Users/aabet/projects/push_swap/push_swap/checker/checker.h
+/Users/aabet/projects/push_swap/push_swap/checker_files/checker.h
 
 /Users/aabet/projects/push_swap/push_swap/gnl/get_next_line.h
 

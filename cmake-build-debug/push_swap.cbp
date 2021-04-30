@@ -78,37 +78,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/checker.h">
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker_files/checker.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/data_func.c">
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker_files/data_func.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/find_command.c">
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker_files/find_command.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/main.c">
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker_files/main.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/output_stacks.c">
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker_files/output_stacks.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/push_commands_checker.c">
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker_files/push_commands_checker.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/reverse_rotate_commands_checker.c">
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker_files/reverse_rotate_commands_checker.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/rotate_commands_checker.c">
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker_files/rotate_commands_checker.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/swap_commands.c">
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker_files/swap_commands.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/swap_commands.h">
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker_files/swap_commands.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker/work_with_commands.c">
+		<Unit filename="/Users/aabet/projects/push_swap/push_swap/checker_files/work_with_commands.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/aabet/projects/push_swap/push_swap/gnl/get_next_line.c">

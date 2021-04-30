@@ -142,248 +142,248 @@ push_swap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
-checker/data_func.o: checker/data_func.c.o
+checker_files/data_func.o: checker_files/data_func.c.o
 
-.PHONY : checker/data_func.o
-
-# target to build an object file
-checker/data_func.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/data_func.c.o
-.PHONY : checker/data_func.c.o
-
-checker/data_func.i: checker/data_func.c.i
-
-.PHONY : checker/data_func.i
-
-# target to preprocess a source file
-checker/data_func.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/data_func.c.i
-.PHONY : checker/data_func.c.i
-
-checker/data_func.s: checker/data_func.c.s
-
-.PHONY : checker/data_func.s
-
-# target to generate assembly for a file
-checker/data_func.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/data_func.c.s
-.PHONY : checker/data_func.c.s
-
-checker/find_command.o: checker/find_command.c.o
-
-.PHONY : checker/find_command.o
+.PHONY : checker_files/data_func.o
 
 # target to build an object file
-checker/find_command.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/find_command.c.o
-.PHONY : checker/find_command.c.o
+checker_files/data_func.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/data_func.c.o
+.PHONY : checker_files/data_func.c.o
 
-checker/find_command.i: checker/find_command.c.i
+checker_files/data_func.i: checker_files/data_func.c.i
 
-.PHONY : checker/find_command.i
+.PHONY : checker_files/data_func.i
 
 # target to preprocess a source file
-checker/find_command.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/find_command.c.i
-.PHONY : checker/find_command.c.i
+checker_files/data_func.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/data_func.c.i
+.PHONY : checker_files/data_func.c.i
 
-checker/find_command.s: checker/find_command.c.s
+checker_files/data_func.s: checker_files/data_func.c.s
 
-.PHONY : checker/find_command.s
+.PHONY : checker_files/data_func.s
 
 # target to generate assembly for a file
-checker/find_command.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/find_command.c.s
-.PHONY : checker/find_command.c.s
+checker_files/data_func.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/data_func.c.s
+.PHONY : checker_files/data_func.c.s
 
-checker/main.o: checker/main.c.o
+checker_files/find_command.o: checker_files/find_command.c.o
 
-.PHONY : checker/main.o
+.PHONY : checker_files/find_command.o
 
 # target to build an object file
-checker/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/main.c.o
-.PHONY : checker/main.c.o
+checker_files/find_command.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/find_command.c.o
+.PHONY : checker_files/find_command.c.o
 
-checker/main.i: checker/main.c.i
+checker_files/find_command.i: checker_files/find_command.c.i
 
-.PHONY : checker/main.i
+.PHONY : checker_files/find_command.i
 
 # target to preprocess a source file
-checker/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/main.c.i
-.PHONY : checker/main.c.i
+checker_files/find_command.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/find_command.c.i
+.PHONY : checker_files/find_command.c.i
 
-checker/main.s: checker/main.c.s
+checker_files/find_command.s: checker_files/find_command.c.s
 
-.PHONY : checker/main.s
+.PHONY : checker_files/find_command.s
 
 # target to generate assembly for a file
-checker/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/main.c.s
-.PHONY : checker/main.c.s
+checker_files/find_command.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/find_command.c.s
+.PHONY : checker_files/find_command.c.s
 
-checker/output_stacks.o: checker/output_stacks.c.o
+checker_files/main.o: checker_files/main.c.o
 
-.PHONY : checker/output_stacks.o
+.PHONY : checker_files/main.o
 
 # target to build an object file
-checker/output_stacks.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/output_stacks.c.o
-.PHONY : checker/output_stacks.c.o
+checker_files/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/main.c.o
+.PHONY : checker_files/main.c.o
 
-checker/output_stacks.i: checker/output_stacks.c.i
+checker_files/main.i: checker_files/main.c.i
 
-.PHONY : checker/output_stacks.i
+.PHONY : checker_files/main.i
 
 # target to preprocess a source file
-checker/output_stacks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/output_stacks.c.i
-.PHONY : checker/output_stacks.c.i
+checker_files/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/main.c.i
+.PHONY : checker_files/main.c.i
 
-checker/output_stacks.s: checker/output_stacks.c.s
+checker_files/main.s: checker_files/main.c.s
 
-.PHONY : checker/output_stacks.s
+.PHONY : checker_files/main.s
 
 # target to generate assembly for a file
-checker/output_stacks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/output_stacks.c.s
-.PHONY : checker/output_stacks.c.s
+checker_files/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/main.c.s
+.PHONY : checker_files/main.c.s
 
-checker/push_commands_checker.o: checker/push_commands_checker.c.o
+checker_files/output_stacks.o: checker_files/output_stacks.c.o
 
-.PHONY : checker/push_commands_checker.o
+.PHONY : checker_files/output_stacks.o
 
 # target to build an object file
-checker/push_commands_checker.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/push_commands_checker.c.o
-.PHONY : checker/push_commands_checker.c.o
+checker_files/output_stacks.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/output_stacks.c.o
+.PHONY : checker_files/output_stacks.c.o
 
-checker/push_commands_checker.i: checker/push_commands_checker.c.i
+checker_files/output_stacks.i: checker_files/output_stacks.c.i
 
-.PHONY : checker/push_commands_checker.i
+.PHONY : checker_files/output_stacks.i
 
 # target to preprocess a source file
-checker/push_commands_checker.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/push_commands_checker.c.i
-.PHONY : checker/push_commands_checker.c.i
+checker_files/output_stacks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/output_stacks.c.i
+.PHONY : checker_files/output_stacks.c.i
 
-checker/push_commands_checker.s: checker/push_commands_checker.c.s
+checker_files/output_stacks.s: checker_files/output_stacks.c.s
 
-.PHONY : checker/push_commands_checker.s
+.PHONY : checker_files/output_stacks.s
 
 # target to generate assembly for a file
-checker/push_commands_checker.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/push_commands_checker.c.s
-.PHONY : checker/push_commands_checker.c.s
+checker_files/output_stacks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/output_stacks.c.s
+.PHONY : checker_files/output_stacks.c.s
 
-checker/reverse_rotate_commands_checker.o: checker/reverse_rotate_commands_checker.c.o
+checker_files/push_commands_checker.o: checker_files/push_commands_checker.c.o
 
-.PHONY : checker/reverse_rotate_commands_checker.o
+.PHONY : checker_files/push_commands_checker.o
 
 # target to build an object file
-checker/reverse_rotate_commands_checker.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.o
-.PHONY : checker/reverse_rotate_commands_checker.c.o
+checker_files/push_commands_checker.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/push_commands_checker.c.o
+.PHONY : checker_files/push_commands_checker.c.o
 
-checker/reverse_rotate_commands_checker.i: checker/reverse_rotate_commands_checker.c.i
+checker_files/push_commands_checker.i: checker_files/push_commands_checker.c.i
 
-.PHONY : checker/reverse_rotate_commands_checker.i
+.PHONY : checker_files/push_commands_checker.i
 
 # target to preprocess a source file
-checker/reverse_rotate_commands_checker.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.i
-.PHONY : checker/reverse_rotate_commands_checker.c.i
+checker_files/push_commands_checker.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/push_commands_checker.c.i
+.PHONY : checker_files/push_commands_checker.c.i
 
-checker/reverse_rotate_commands_checker.s: checker/reverse_rotate_commands_checker.c.s
+checker_files/push_commands_checker.s: checker_files/push_commands_checker.c.s
 
-.PHONY : checker/reverse_rotate_commands_checker.s
+.PHONY : checker_files/push_commands_checker.s
 
 # target to generate assembly for a file
-checker/reverse_rotate_commands_checker.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/reverse_rotate_commands_checker.c.s
-.PHONY : checker/reverse_rotate_commands_checker.c.s
+checker_files/push_commands_checker.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/push_commands_checker.c.s
+.PHONY : checker_files/push_commands_checker.c.s
 
-checker/rotate_commands_checker.o: checker/rotate_commands_checker.c.o
+checker_files/reverse_rotate_commands_checker.o: checker_files/reverse_rotate_commands_checker.c.o
 
-.PHONY : checker/rotate_commands_checker.o
+.PHONY : checker_files/reverse_rotate_commands_checker.o
 
 # target to build an object file
-checker/rotate_commands_checker.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.o
-.PHONY : checker/rotate_commands_checker.c.o
+checker_files/reverse_rotate_commands_checker.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/reverse_rotate_commands_checker.c.o
+.PHONY : checker_files/reverse_rotate_commands_checker.c.o
 
-checker/rotate_commands_checker.i: checker/rotate_commands_checker.c.i
+checker_files/reverse_rotate_commands_checker.i: checker_files/reverse_rotate_commands_checker.c.i
 
-.PHONY : checker/rotate_commands_checker.i
+.PHONY : checker_files/reverse_rotate_commands_checker.i
 
 # target to preprocess a source file
-checker/rotate_commands_checker.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.i
-.PHONY : checker/rotate_commands_checker.c.i
+checker_files/reverse_rotate_commands_checker.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/reverse_rotate_commands_checker.c.i
+.PHONY : checker_files/reverse_rotate_commands_checker.c.i
 
-checker/rotate_commands_checker.s: checker/rotate_commands_checker.c.s
+checker_files/reverse_rotate_commands_checker.s: checker_files/reverse_rotate_commands_checker.c.s
 
-.PHONY : checker/rotate_commands_checker.s
+.PHONY : checker_files/reverse_rotate_commands_checker.s
 
 # target to generate assembly for a file
-checker/rotate_commands_checker.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/rotate_commands_checker.c.s
-.PHONY : checker/rotate_commands_checker.c.s
+checker_files/reverse_rotate_commands_checker.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/reverse_rotate_commands_checker.c.s
+.PHONY : checker_files/reverse_rotate_commands_checker.c.s
 
-checker/swap_commands.o: checker/swap_commands.c.o
+checker_files/rotate_commands_checker.o: checker_files/rotate_commands_checker.c.o
 
-.PHONY : checker/swap_commands.o
+.PHONY : checker_files/rotate_commands_checker.o
 
 # target to build an object file
-checker/swap_commands.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/swap_commands.c.o
-.PHONY : checker/swap_commands.c.o
+checker_files/rotate_commands_checker.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/rotate_commands_checker.c.o
+.PHONY : checker_files/rotate_commands_checker.c.o
 
-checker/swap_commands.i: checker/swap_commands.c.i
+checker_files/rotate_commands_checker.i: checker_files/rotate_commands_checker.c.i
 
-.PHONY : checker/swap_commands.i
+.PHONY : checker_files/rotate_commands_checker.i
 
 # target to preprocess a source file
-checker/swap_commands.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/swap_commands.c.i
-.PHONY : checker/swap_commands.c.i
+checker_files/rotate_commands_checker.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/rotate_commands_checker.c.i
+.PHONY : checker_files/rotate_commands_checker.c.i
 
-checker/swap_commands.s: checker/swap_commands.c.s
+checker_files/rotate_commands_checker.s: checker_files/rotate_commands_checker.c.s
 
-.PHONY : checker/swap_commands.s
+.PHONY : checker_files/rotate_commands_checker.s
 
 # target to generate assembly for a file
-checker/swap_commands.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/swap_commands.c.s
-.PHONY : checker/swap_commands.c.s
+checker_files/rotate_commands_checker.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/rotate_commands_checker.c.s
+.PHONY : checker_files/rotate_commands_checker.c.s
 
-checker/work_with_commands.o: checker/work_with_commands.c.o
+checker_files/swap_commands.o: checker_files/swap_commands.c.o
 
-.PHONY : checker/work_with_commands.o
+.PHONY : checker_files/swap_commands.o
 
 # target to build an object file
-checker/work_with_commands.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/work_with_commands.c.o
-.PHONY : checker/work_with_commands.c.o
+checker_files/swap_commands.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/swap_commands.c.o
+.PHONY : checker_files/swap_commands.c.o
 
-checker/work_with_commands.i: checker/work_with_commands.c.i
+checker_files/swap_commands.i: checker_files/swap_commands.c.i
 
-.PHONY : checker/work_with_commands.i
+.PHONY : checker_files/swap_commands.i
 
 # target to preprocess a source file
-checker/work_with_commands.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/work_with_commands.c.i
-.PHONY : checker/work_with_commands.c.i
+checker_files/swap_commands.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/swap_commands.c.i
+.PHONY : checker_files/swap_commands.c.i
 
-checker/work_with_commands.s: checker/work_with_commands.c.s
+checker_files/swap_commands.s: checker_files/swap_commands.c.s
 
-.PHONY : checker/work_with_commands.s
+.PHONY : checker_files/swap_commands.s
 
 # target to generate assembly for a file
-checker/work_with_commands.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker/work_with_commands.c.s
-.PHONY : checker/work_with_commands.c.s
+checker_files/swap_commands.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/swap_commands.c.s
+.PHONY : checker_files/swap_commands.c.s
+
+checker_files/work_with_commands.o: checker_files/work_with_commands.c.o
+
+.PHONY : checker_files/work_with_commands.o
+
+# target to build an object file
+checker_files/work_with_commands.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/work_with_commands.c.o
+.PHONY : checker_files/work_with_commands.c.o
+
+checker_files/work_with_commands.i: checker_files/work_with_commands.c.i
+
+.PHONY : checker_files/work_with_commands.i
+
+# target to preprocess a source file
+checker_files/work_with_commands.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/work_with_commands.c.i
+.PHONY : checker_files/work_with_commands.c.i
+
+checker_files/work_with_commands.s: checker_files/work_with_commands.c.s
+
+.PHONY : checker_files/work_with_commands.s
+
+# target to generate assembly for a file
+checker_files/work_with_commands.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_files/work_with_commands.c.s
+.PHONY : checker_files/work_with_commands.c.s
 
 gnl/get_next_line.o: gnl/get_next_line.c.o
 
@@ -1501,33 +1501,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... push_swap"
-	@echo "... checker/data_func.o"
-	@echo "... checker/data_func.i"
-	@echo "... checker/data_func.s"
-	@echo "... checker/find_command.o"
-	@echo "... checker/find_command.i"
-	@echo "... checker/find_command.s"
-	@echo "... checker/main.o"
-	@echo "... checker/main.i"
-	@echo "... checker/main.s"
-	@echo "... checker/output_stacks.o"
-	@echo "... checker/output_stacks.i"
-	@echo "... checker/output_stacks.s"
-	@echo "... checker/push_commands_checker.o"
-	@echo "... checker/push_commands_checker.i"
-	@echo "... checker/push_commands_checker.s"
-	@echo "... checker/reverse_rotate_commands_checker.o"
-	@echo "... checker/reverse_rotate_commands_checker.i"
-	@echo "... checker/reverse_rotate_commands_checker.s"
-	@echo "... checker/rotate_commands_checker.o"
-	@echo "... checker/rotate_commands_checker.i"
-	@echo "... checker/rotate_commands_checker.s"
-	@echo "... checker/swap_commands.o"
-	@echo "... checker/swap_commands.i"
-	@echo "... checker/swap_commands.s"
-	@echo "... checker/work_with_commands.o"
-	@echo "... checker/work_with_commands.i"
-	@echo "... checker/work_with_commands.s"
+	@echo "... checker_files/data_func.o"
+	@echo "... checker_files/data_func.i"
+	@echo "... checker_files/data_func.s"
+	@echo "... checker_files/find_command.o"
+	@echo "... checker_files/find_command.i"
+	@echo "... checker_files/find_command.s"
+	@echo "... checker_files/main.o"
+	@echo "... checker_files/main.i"
+	@echo "... checker_files/main.s"
+	@echo "... checker_files/output_stacks.o"
+	@echo "... checker_files/output_stacks.i"
+	@echo "... checker_files/output_stacks.s"
+	@echo "... checker_files/push_commands_checker.o"
+	@echo "... checker_files/push_commands_checker.i"
+	@echo "... checker_files/push_commands_checker.s"
+	@echo "... checker_files/reverse_rotate_commands_checker.o"
+	@echo "... checker_files/reverse_rotate_commands_checker.i"
+	@echo "... checker_files/reverse_rotate_commands_checker.s"
+	@echo "... checker_files/rotate_commands_checker.o"
+	@echo "... checker_files/rotate_commands_checker.i"
+	@echo "... checker_files/rotate_commands_checker.s"
+	@echo "... checker_files/swap_commands.o"
+	@echo "... checker_files/swap_commands.i"
+	@echo "... checker_files/swap_commands.s"
+	@echo "... checker_files/work_with_commands.o"
+	@echo "... checker_files/work_with_commands.i"
+	@echo "... checker_files/work_with_commands.s"
 	@echo "... gnl/get_next_line.o"
 	@echo "... gnl/get_next_line.i"
 	@echo "... gnl/get_next_line.s"
